@@ -21,6 +21,14 @@
         }
              
     </style>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+$('#fadethis').fadeIn(5000);
+});
+
+</script>
 </head>
     
 <body
@@ -30,6 +38,7 @@
     <!--background-image: url(brokentriangle.gif); -->
      
     <form id="form1" runat="server">
+           <div id="fadethis" style="display:none">  
         <p class="auto-style2">
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         </p>
@@ -40,13 +49,13 @@
             &nbsp;</p>
          <p class="auto-style2">
             <asp:Image id="Image1" runat="server" ImageUrl="~/images/projects_100hv2.jpg" ImageAlign="Middle"/>
-              <asp:Image id="Image2" runat="server" ImageUrl="~/images/black.jpg" ImageAlign="Middle" EnableTheming="False" EnableViewState="False" Height="41px" Width="535px"/> 
+              <asp:Image id="Image2" runat="server" ImageUrl="~/images/black.jpg" ImageAlign="Middle" EnableTheming="False" EnableViewState="False" Height="21px" Width="535px"/> 
         </p>
 
 
         <p class="auto-style2">
             <asp:ImageButton ID="ImageButton1" runat="server" Height="218px" Width="400px" ImageUrl="~/images/VDFlashcards_1280w.png"  PostBackUrl="~/VDFlashcards.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> &nbsp;&nbsp;
-            <asp:ImageButton ID="ImageButton2" runat="server" Height="218px" Width="400px" ImageUrl="~/images/CZLogo_1280w.jpg"  PostBackUrl="~/blankproject.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle"/>
+            <asp:ImageButton ID="ImageButton2" runat="server" Width="400px" ImageUrl="~/images/CZLogo_1280w.jpg"  PostBackUrl="~/blankproject.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle"/>
             
      
         <p class="auto-style2">
@@ -62,11 +71,11 @@
         </p>
               <p class="auto-style2">        
     
-            <asp:ImageButton ID="ImageButton7" runat="server" Height="77px" Width="60px" ImageUrl="~/images/homeButton.png"  PostBackUrl="~/mainpage.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
+            <asp:ImageButton ID="ImageButton7" runat="server" Height="77px" Width="60px" ImageUrl="~/images/home.png"  PostBackUrl="~/mainpage.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
     <asp:Image id="BackgroundImage" runat="server" ImageUrl="~/images/black.jpg" ImageAlign="Middle" EnableTheming="False" EnableViewState="False" Height="41px" Width="752px"/> 
 </p>
         
-        
+     </div>   
     </form>
     
 </body> 
