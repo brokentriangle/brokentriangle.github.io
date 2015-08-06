@@ -11,8 +11,9 @@
             height: 754px;
         }
         .auto-style2 {
-            margin-left: 325px;
-            margin-right: 250px;
+            text-align:left
+               width: 700px;
+         
         }
         .auto-style3 {
             margin-left: 325px;
@@ -26,22 +27,18 @@
         <div class="auto-style1">
     
             <iframe frameborder="0" width="700" height="450" src="http://www.youtube.com/embed/4GvqCzxai7M?autoplay=1"></iframe>
-            
-            
-            
-            <br />
-    <asp:TextBox ID="TextBox1" runat="server" BackColor="Black" BorderWidth="0px" Font-Names="Century Gothic" ForeColor="White" Height="277px" Width="700px" TextMode="MultiLine" Font-Size="Medium" OnTextChanged="TextBox1_TextChanged">Here is an example of text that will scale with the graphic. VirtualDeck Flashcards is a flashcard style study tool designed for students who need to study on the go. A flashcard style app with a clean minimalistic design. It allows you to organize your flashcards into categories (called virtual decks), as well as add images, audio, and import excel (or other spreadsheet software) files. No internet connection required to study your decks. You can type up your notes using Google docs following a basic format (see virtualdeckflashcards.com for details) and save your notes to your phone, and then study your notes on your way home from class, or heading to your next one. Image support available for quickly adding formulas or hard to type up info, just write it out, take a picture with your phone, and then add it to your card. New Random card order now supported!</asp:TextBox>
-    
-            
-            
-        </div>
-    <p class="auto-style2">
-        
-        <span style="color: rgb(195, 195, 195); font-family: 'Century Gothic', Arial; font-size: 18px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 28.7999992370605px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(0, 0, 0);">VirtualDeck Flashcards is a flashcard style study tool designed for students who need to study on the go. A flashcard style app with a clean minimalistic design. It allows you to organize your flashcards into categories (called virtual decks), as well as add images, audio, and import excel (or other spreadsheet software) files. No internet connection required to study your decks. You can type up your notes using Google docs following a basic format (see virtualdeckflashcards.com for details) and save your notes to your phone, and then study your 
+         
+            <asp:Label ID="Label2"
+        <p class="auto-style3">
+            <span style="color: rgb(195, 195, 195);  font-family: 'Century Gothic', Arial;  text-align: left; font-size: 18px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 28.7999992370605px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(0, 0, 0);">VirtualDeck Flashcards is a flashcard style study tool designed for students who need to study on the go. A flashcard style app with a clean minimalistic design. It allows you to organize your flashcards into categories (called virtual decks), as well as add images, audio, and import excel (or other spreadsheet software) files. No internet connection required to study your decks. You can type up your notes using Google docs following a basic format (see virtualdeckflashcards.com for details) and save your notes to your phone, and then study your 
         notes on your way home from class, or heading to your next one. Image support available for quickly adding formulas or hard to type up info, just write it out, take a picture with your phone, and then add it to your card. New Random card order now supported!</span></p>
+       &nbsp;</p>
+        </asp:Label>
+             </div>
+        
+        
+            
 
-    
-           
         <p class="auto-style2">
             <span style="color: rgb(195, 195, 195); font-family: 'Century Gothic', Arial; font-size: 18px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 28.7999992370605px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(0, 0, 0);">I started writing this app while I was attending Concordia University. All I wanted was a simple flashcard app with a nice clean interface where I could type up my cards on my computer and then be able to study them while taking the bus and metro home. I also wanted to be able to edit them on my phone and make minor corrections to my notes without an internet connection. I checked everywhere but I could not find anything that did just that. So...how hard could it be right?...and so I set out to write an app that did just that. So here I am 6000 
             lines of finished code later, although I&#39;ve written and rewritten probably 3 times more, with an app that finally did what I wanted.</span></p>
@@ -59,10 +56,16 @@
         
         <p>
             &nbsp;</p>
-        
+        </div>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
     </form>
-    
+  
 
     
            
 </html>
+ <script type="text/javascript">
+$(document).ready(function() {
+$('#fadethis').fadeIn(5000);
+}); 
