@@ -1,7 +1,7 @@
 # brokentriangle.github.io
 Developed by: Allen Smith & Manish Seebun
 
-This website is under development, and a preview is available here: 
+This website is under development, and the latest working preview is available here: 
 
 http://ec2-52-2-65-183.compute-1.amazonaws.com/
 
