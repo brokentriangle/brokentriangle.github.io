@@ -9,6 +9,14 @@ namespace aspwebsite
 {
     public partial class VDFlashcards : System.Web.UI.Page
     {
+        protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+        {
+
+        }
+        protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
+        {
+
+        }
         protected void Page_Load(object sender, EventArgs e)
         {
             

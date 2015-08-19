@@ -68,12 +68,19 @@
   <ItemGroup>
     <Content Include="aboutus.aspx" />
     <Content Include="contactus.aspx" />
+    <Content Include="My Playground.aspx" />
     <Content Include="projects.aspx" />
+    <Content Include="Sample 03.aspx" />
+    <Content Include="Sample 01.aspx" />
+    <Content Include="Sample 02.aspx" />
+    <Content Include="Sample 04.aspx" />
+    <Content Include="Sample 05.aspx" />
     <Content Include="VDFlashcards.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="mainpage.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="WorkingOnIt.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="aboutus.aspx.cs">
@@ -90,6 +97,13 @@
     <Compile Include="contactus.aspx.designer.cs">
       <DependentUpon>contactus.aspx</DependentUpon>
     </Compile>
+    <Compile Include="My Playground.aspx.cs">
+      <DependentUpon>My Playground.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Playground.aspx.designer.cs">
+      <DependentUpon>My Playground.aspx</DependentUpon>
+    </Compile>
     <Compile Include="projects.aspx.cs">
       <DependentUpon>projects.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -98,12 +112,47 @@
       <DependentUpon>projects.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="mainpage.aspx.cs">
-      <DependentUpon>mainpage.aspx</DependentUpon>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="mainpage.aspx.designer.cs">
-      <DependentUpon>mainpage.aspx</DependentUpon>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sample 03.aspx.cs">
+      <DependentUpon>Sample 03.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sample 03.aspx.designer.cs">
+      <DependentUpon>Sample 03.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sample 01.aspx.cs">
+      <DependentUpon>Sample 01.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sample 01.aspx.designer.cs">
+      <DependentUpon>Sample 01.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sample 02.aspx.cs">
+      <DependentUpon>Sample 02.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sample 02.aspx.designer.cs">
+      <DependentUpon>Sample 02.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sample 04.aspx.cs">
+      <DependentUpon>Sample 04.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sample 04.aspx.designer.cs">
+      <DependentUpon>Sample 04.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sample 05.aspx.cs">
+      <DependentUpon>Sample 05.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sample 05.aspx.designer.cs">
+      <DependentUpon>Sample 05.aspx</DependentUpon>
     </Compile>
     <Compile Include="VDFlashcards.aspx.cs">
       <DependentUpon>VDFlashcards.aspx</DependentUpon>
@@ -111,6 +160,13 @@
     </Compile>
     <Compile Include="VDFlashcards.aspx.designer.cs">
       <DependentUpon>VDFlashcards.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WorkingOnIt.aspx.cs">
+      <DependentUpon>WorkingOnIt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WorkingOnIt.aspx.designer.cs">
+      <DependentUpon>WorkingOnIt.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
