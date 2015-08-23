@@ -5,7 +5,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Broken Triangle</title>
     <style 
         type="text/css">
        .auto-style1 
@@ -287,7 +287,7 @@
             <div class="fadeproject" style="max-width: 600px;margin: 0 auto;padding: 0 50px;">
                 <h1 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 10px;margin: 50px 0;text-align: center;"> SQUIRRELY </h1>
                 <p class="fromright">
-               <asp:ImageButton ID="Squirrely" runat="server" ImageUrl="~/images/chalkLock_squirrely.jpg"  PostBackUrl="~/Projects/WorkingOnIt.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle" Width="60%"/> 
+               <asp:ImageButton ID="Squirrely" runat="server" ImageUrl="~/images/chalkLock_squirrely.jpg"  PostBackUrl="~/Projects/Squirrely.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle" Width="60%"/> 
        </p>
                 <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;"> A Game Created Using the Unity Game Engine Coming This Fall</h2>
             </div>

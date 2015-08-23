@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>BrokenTriangle</title>
+  <title>Broken Triangle</title>
 </head>
     <style 
         type="text/css">
@@ -47,7 +47,6 @@
         <div class="content" style="max-width: 600px;margin: 0 auto;padding: 0 50px;">
              <form id="form1" runat="server">
         <p class="auto-style1">
-            <br/><br/><br/>
             <asp:Image id="BackgroundImage" runat="server" ImageUrl="~/images/brokentriangle.gif" ImageAlign="Middle"/>
         </p>
          
