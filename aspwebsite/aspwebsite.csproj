@@ -68,6 +68,7 @@
   <ItemGroup>
     <Content Include="aboutus.aspx" />
     <Content Include="contactus.aspx" />
+    <Content Include="Czhibis.aspx" />
     <Content Include="My Playground.aspx" />
     <Content Include="projects.aspx" />
     <Content Include="Sample 03.aspx" />
@@ -97,6 +98,13 @@
     </Compile>
     <Compile Include="contactus.aspx.designer.cs">
       <DependentUpon>contactus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Czhibis.aspx.cs">
+      <DependentUpon>Czhibis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Czhibis.aspx.designer.cs">
+      <DependentUpon>Czhibis.aspx</DependentUpon>
     </Compile>
     <Compile Include="My Playground.aspx.cs">
       <DependentUpon>My Playground.aspx</DependentUpon>
