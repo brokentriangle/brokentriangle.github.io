@@ -212,27 +212,27 @@
       
           <p class="fromleft"  id="fadestart" style="display:none" >
            
-             <asp:ImageButton ID="ImageButton1"  runat="server" class="image-style1" ImageUrl="~/images/VDFlashcards_1280w.png"  PostBackUrl="~/VDFlashcards.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> &nbsp;&nbsp;
+             <asp:ImageButton ID="ImageButton1"  runat="server" class="image-style1" ImageUrl="~/images/VDFlashcards_1280w.png"  PostBackUrl="~/Projects/VDFlashcards.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> &nbsp;&nbsp;
              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-             <asp:ImageButton ID="ImageButton2" runat="server" class="image-style1" ImageUrl="~/images/CZLogo_1280w.jpg"  PostBackUrl="~/Czhibis.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle"/>
+             <asp:ImageButton ID="ImageButton2" runat="server" class="image-style1" ImageUrl="~/images/CZLogo_1280w.jpg"  PostBackUrl="~/Projects/Czhibis.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle"/>
         </p>
              <p class="auto-style2">
             &nbsp;
         </p>
       
         <p class="fromright"  id="fadeshort" style="display:none">
-            <asp:ImageButton ID="ImageButton3" runat="server" class="image-style1" ImageUrl="~/images/dotnet01.jpg"  PostBackUrl="~/WorkingOnIt.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> &nbsp;&nbsp;
+            <asp:ImageButton ID="ImageButton3" runat="server" class="image-style1" ImageUrl="~/images/dotnet01.jpg"  PostBackUrl="~/Projects/Dotnet.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> &nbsp;&nbsp;
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-             <asp:ImageButton ID="ImageButton4" runat="server" class="image-style1" ImageUrl="~/images/DevelopingInCloud01.jpg"  PostBackUrl="~/WorkingOnIt.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle"/> 
+             <asp:ImageButton ID="ImageButton4" runat="server" class="image-style1" ImageUrl="~/images/DevelopingInCloud01.jpg"  PostBackUrl="~/Projects/WorkingOnIt.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle"/> 
         </p>
         <p class="auto-style2">
             &nbsp;
         </p>
           
         <p class="frombottom"  id="fadelong" style="display:none">
-            <asp:ImageButton ID="ImageButton7" runat="server" class="image-style1" ImageUrl="~/images/chalkLock_squirrely.jpg"  PostBackUrl="~/WorkingOnIt.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> &nbsp;&nbsp;
+            <asp:ImageButton ID="ImageButton7" runat="server" class="image-style1" ImageUrl="~/images/playgroundf02.jpg"  PostBackUrl="~/Projects/MyPlayground.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> &nbsp;&nbsp;
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   
-            <asp:ImageButton ID="ImageButton9" runat="server" class="image-style1" ImageUrl="~/images/chalkLock001.png"  PostBackUrl="~/WorkingOnIt.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle"/> 
+            <asp:ImageButton ID="ImageButton9" runat="server" class="image-style1" ImageUrl="~/images/chalkLock_squirrely.jpg"  PostBackUrl="~/Projects/WorkingOnIt.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle"/> 
         </p>
         <p class="auto-style2">
             &nbsp;

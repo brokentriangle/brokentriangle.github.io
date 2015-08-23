@@ -68,21 +68,23 @@
   <ItemGroup>
     <Content Include="aboutus.aspx" />
     <Content Include="contactus.aspx" />
-    <Content Include="Czhibis.aspx" />
-    <Content Include="My Playground.aspx" />
+    <Content Include="Projects\Czhibis.aspx" />
+    <Content Include="Projects\Dotnet.aspx" />
+    <Content Include="Projects\MyPlayground.aspx" />
     <Content Include="projects.aspx" />
-    <Content Include="Sample 03.aspx" />
-    <Content Include="Sample 01.aspx" />
-    <Content Include="Sample 02.aspx" />
-    <Content Include="Sample 04.aspx" />
-    <Content Include="Sample 05.aspx" />
-    <Content Include="Sample 06.aspx" />
-    <Content Include="VDFlashcards.aspx" />
+    <Content Include="Projects\NewProjectTemplate.aspx" />
+    <Content Include="Samples\Sample 03.aspx" />
+    <Content Include="Samples\Sample 01.aspx" />
+    <Content Include="Samples\Sample 02.aspx" />
+    <Content Include="Samples\Sample 04.aspx" />
+    <Content Include="Samples\Sample 05.aspx" />
+    <Content Include="Samples\Sample 06.aspx" />
+    <Content Include="Projects\VDFlashcards.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Default.aspx" />
-    <Content Include="WorkingOnIt.aspx" />
+    <Content Include="Projects\WorkingOnIt.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="aboutus.aspx.cs">
@@ -99,19 +101,26 @@
     <Compile Include="contactus.aspx.designer.cs">
       <DependentUpon>contactus.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Czhibis.aspx.cs">
+    <Compile Include="Projects\Czhibis.aspx.cs">
       <DependentUpon>Czhibis.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Czhibis.aspx.designer.cs">
+    <Compile Include="Projects\Czhibis.aspx.designer.cs">
       <DependentUpon>Czhibis.aspx</DependentUpon>
     </Compile>
-    <Compile Include="My Playground.aspx.cs">
-      <DependentUpon>My Playground.aspx</DependentUpon>
+    <Compile Include="Projects\Dotnet.aspx.cs">
+      <DependentUpon>Dotnet.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="My Playground.aspx.designer.cs">
-      <DependentUpon>My Playground.aspx</DependentUpon>
+    <Compile Include="Projects\Dotnet.aspx.designer.cs">
+      <DependentUpon>Dotnet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Projects\MyPlayground.aspx.cs">
+      <DependentUpon>MyPlayground.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Projects\MyPlayground.aspx.designer.cs">
+      <DependentUpon>MyPlayground.aspx</DependentUpon>
     </Compile>
     <Compile Include="projects.aspx.cs">
       <DependentUpon>projects.aspx</DependentUpon>
@@ -119,6 +128,13 @@
     </Compile>
     <Compile Include="projects.aspx.designer.cs">
       <DependentUpon>projects.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Projects\NewProjectTemplate.aspx.cs">
+      <DependentUpon>NewProjectTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Projects\NewProjectTemplate.aspx.designer.cs">
+      <DependentUpon>NewProjectTemplate.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Default.aspx.cs">
@@ -128,60 +144,60 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Sample 03.aspx.cs">
+    <Compile Include="Samples\Sample 03.aspx.cs">
       <DependentUpon>Sample 03.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Sample 03.aspx.designer.cs">
+    <Compile Include="Samples\Sample 03.aspx.designer.cs">
       <DependentUpon>Sample 03.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Sample 01.aspx.cs">
+    <Compile Include="Samples\Sample 01.aspx.cs">
       <DependentUpon>Sample 01.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Sample 01.aspx.designer.cs">
+    <Compile Include="Samples\Sample 01.aspx.designer.cs">
       <DependentUpon>Sample 01.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Sample 02.aspx.cs">
+    <Compile Include="Samples\Sample 02.aspx.cs">
       <DependentUpon>Sample 02.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Sample 02.aspx.designer.cs">
+    <Compile Include="Samples\Sample 02.aspx.designer.cs">
       <DependentUpon>Sample 02.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Sample 04.aspx.cs">
+    <Compile Include="Samples\Sample 04.aspx.cs">
       <DependentUpon>Sample 04.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Sample 04.aspx.designer.cs">
+    <Compile Include="Samples\Sample 04.aspx.designer.cs">
       <DependentUpon>Sample 04.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Sample 05.aspx.cs">
+    <Compile Include="Samples\Sample 05.aspx.cs">
       <DependentUpon>Sample 05.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Sample 05.aspx.designer.cs">
+    <Compile Include="Samples\Sample 05.aspx.designer.cs">
       <DependentUpon>Sample 05.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Sample 06.aspx.cs">
+    <Compile Include="Samples\Sample 06.aspx.cs">
       <DependentUpon>Sample 06.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Sample 06.aspx.designer.cs">
+    <Compile Include="Samples\Sample 06.aspx.designer.cs">
       <DependentUpon>Sample 06.aspx</DependentUpon>
     </Compile>
-    <Compile Include="VDFlashcards.aspx.cs">
+    <Compile Include="Projects\VDFlashcards.aspx.cs">
       <DependentUpon>VDFlashcards.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="VDFlashcards.aspx.designer.cs">
+    <Compile Include="Projects\VDFlashcards.aspx.designer.cs">
       <DependentUpon>VDFlashcards.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WorkingOnIt.aspx.cs">
+    <Compile Include="Projects\WorkingOnIt.aspx.cs">
       <DependentUpon>WorkingOnIt.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WorkingOnIt.aspx.designer.cs">
+    <Compile Include="Projects\WorkingOnIt.aspx.designer.cs">
       <DependentUpon>WorkingOnIt.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
