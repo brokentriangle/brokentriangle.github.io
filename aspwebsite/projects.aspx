@@ -34,7 +34,10 @@
         {
             width:25%;
         }  
-          
+              .fadeproject 
+            {
+                opacity:0;
+            }
 @-webkit-keyframes slideright
 {
     0%
@@ -170,6 +173,20 @@
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript">
+    $(function () {
+        $(window).scroll(function () {
+            $('.fadeproject').each(function (i) {
+                var bottom_of_object = $(this).position().top + $(this).outerHeight();
+                var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+                /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
+                bottom_of_window = bottom_of_window + 200;
+                if (bottom_of_window > bottom_of_object) {
+                    $(this).animate({ 'opacity': '1' }, 500);
+                }
+            });
+        });
+    });
     $(document).ready(function () {
         $('#fadethis').fadeIn(3000);
     });
@@ -208,44 +225,79 @@
         <p class="auto-style2">
           &nbsp;  
         </p>
-    
-      
-          <p class="fromleft"  id="fadestart" style="display:none" >
-           
-             
-                <asp:ImageButton ID="ImageButton1"  runat="server" class="image-style1" ImageUrl="~/images/VDFlashcards_1280w.png"  PostBackUrl="~/Projects/VDFlashcards.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> &nbsp;&nbsp;
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-             <asp:ImageButton ID="ImageButton2" runat="server" class="image-style1" ImageUrl="~/images/CZLogo_1280w.jpg"  PostBackUrl="~/Projects/Czhibis.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle"/>
-      
-               
-          </p>
-             <p class="auto-style2">
-            &nbsp;
-                
-        </p>
-      
-        <p class="fromright"  id="fadeshort" style="display:none">
-            <asp:ImageButton ID="ImageButton3" runat="server" class="image-style1" ImageUrl="~/images/dotnet01.jpg"  PostBackUrl="~/Projects/Dotnet.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> &nbsp;&nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-             <asp:ImageButton ID="ImageButton4" runat="server" class="image-style1" ImageUrl="~/images/DevelopingInCloud01.jpg"  PostBackUrl="~/Projects/WorkingOnIt.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle"/> 
-        </p>
-        <p class="auto-style2">
-            &nbsp;
-        </p>
-          
-        <p class="frombottom"  id="fadelong" style="display:none">
-            <asp:ImageButton ID="ImageButton7" runat="server" class="image-style1" ImageUrl="~/images/playgroundf02.jpg"  PostBackUrl="~/Projects/MyPlayground.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> &nbsp;&nbsp;
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   
-            <asp:ImageButton ID="ImageButton9" runat="server" class="image-style1" ImageUrl="~/images/chalkLock_squirrely.jpg"  PostBackUrl="~/Projects/WorkingOnIt.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle"/> 
-        </p>
-        <p class="auto-style2">
-            &nbsp;
-        </p>
+          <div class="tails" style="padding: 10px 0;padding-bottom: 10px;background-color:#121212 ;color: #999999;">
+            <div class="fadeproject" style="max-width: 600px;margin: 0 auto;padding: 0 50px;">
+                <h1 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 10px;margin: 50px 0;text-align: center;"> VIRTUALDECK FLASHCARDS </h1>
+                <p class="fromleft">
+                <asp:ImageButton id="VD" runat="server" ImageUrl="~/images/VDFlashcards_1280w.png"  PostBackUrl="~/Projects/VDFlashcards.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle" Width="60%"/>       
+                </p>
+                <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;"> Flashcard Style Study App Availavle on Google Play</h2>
+            </div>
+         </div>
          
+      
+        
+        
+            <div class="tails" style="padding: 50px 0;padding-bottom: 200px;background-color: ##121212;color: #fff;">
+            <div class="fadeproject" style="max-width: 600px;margin: 0 auto;padding: 0 50px;">
+                <h1 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 10px;margin: 50px 0;text-align: center;"> PROJECT CZHIBIS </h1>
+                <p class="fromright">
+                <asp:ImageButton id="CZ" runat="server" ImageUrl="~/images/Czhibis_logo_1280w.jpg"  PostBackUrl="~/Projects/Czhibis.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle" Width="60%"/>       
+                </p>
+                <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;"> HOME AUTOMATION LINUX AND SCRIPTING BASED</h2>
+            </div>
+         </div>
+
+
+        
+          <div class="tails" style="padding: 10px 0;padding-bottom: 10px;background-color:#121212 ;color: #999999;">
+            <div class="fadeproject" style="max-width: 600px;margin: 0 auto;padding: 0 50px;">
+                <h1 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 10px;margin: 50px 0;text-align: center;"> THIS WEBSITE </h1>
+                <p class="fromleft">
+                <asp:ImageButton id="Website" runat="server" ImageUrl="~/images/dotnet01.jpg"  PostBackUrl="~/Projects/Dotnet.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle" Width="60%"/>       
+                </p>
+                <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;"> A Website Using the ASP.NET Framework</h2>
+            </div>
+         </div>
+
+
+               <div class="tails" style="padding: 50px 0;padding-bottom: 200px;background-color: ##121212;color: #fff;">
+            <div class="fadeproject" style="max-width: 600px;margin: 0 auto;padding: 0 50px;">
+                <h1 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 10px;margin: 50px 0;text-align: center;"> CLOUD BASED DEVELOPMENT ENVIROMENTS </h1>
+                <p class="fromright">
+                <asp:ImageButton id="Cloud" runat="server" ImageUrl="~/images/DevelopingInCloud01.jpg"  PostBackUrl="~/Projects/MobileDev.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle" Width="60%"/>       
+                </p>
+                <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;"> This Website Created in Part Using Cloud Based Development Enviroments</h2>
+            </div>
+         </div>
+
+
+              <div class="tails" style="padding: 10px 0;padding-bottom: 10px;background-color:#121212 ;color: #999999;">
+            <div class="fadeproject" style="max-width: 600px;margin: 0 auto;padding: 0 50px;">
+                <h1 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 10px;margin: 50px 0;text-align: center;"> MY DIGITAL PLAYGROUND </h1>
+                <p class="fromleft">
+                <asp:ImageButton id="Dev" runat="server" ImageUrl="~/images/playgroundf02.jpg"  PostBackUrl="~/Projects/MyPlayground.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle" Width="60%"/>       
+                </p>
+                <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;"> Some of my Experiments and Works in Progress</h2>
+            </div>
+         </div>
+
+
+                <div class="tails" style="padding: 50px 0;padding-bottom: 200px;background-color: ##121212;color: #fff;">
+            <div class="fadeproject" style="max-width: 600px;margin: 0 auto;padding: 0 50px;">
+                <h1 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 10px;margin: 50px 0;text-align: center;"> SQUIRRELY </h1>
+                <p class="fromright">
+               <asp:ImageButton ID="Squirrely" runat="server" ImageUrl="~/images/chalkLock_squirrely.jpg"  PostBackUrl="~/Projects/WorkingOnIt.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle" Width="60%"/> 
+       </p>
+                <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;"> A Game Created Using the Unity Game Engine Coming This Fall</h2>
+            </div>
+         </div>
+
+
+
      
     </form>
     
 </body> 
 
 </html>
-
