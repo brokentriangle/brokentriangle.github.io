@@ -1,252 +1,110 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Sample 05.aspx.cs" Inherits="aspwebsite.Sample_05" %>
 
 <!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>BrokenTriangle</title>
+</head>
     <style 
         type="text/css">
-        .auto-style1 {
-            width: 900px;
-            text-align: left;
-        }
-        
-         .auto-style2 
+            .fadethis 
+            {
+                opacity:0;
+            }
+               .auto-style1 
         {
             text-align: center;
             color: #999999;
             font-size: large;
-             background-position: 50% 0%;
+             background-position: 100% 0%;
         }
-         .auto-style3 {
-            text-align: center;
-            font-family:Courier New, Courier, monospace;
-            font-size:x-large;
-            color:white;
-               
-
-        }     
-        .image-style1 {
-       width:25%;
-               
-
-        }  
-           .image-home {
-            text-align:right;
-               
-
-        }   
-@-webkit-keyframes slideright
-{
-    0%
-    {
-        -webkit-transform: translateX(200px);
-        transform: translateX(200px);
-    }
-     
-  100%
-    {
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
-}
-@keyframes slideright
-{
-   
-   0%
-    {
-        -webkit-transform: translateX(200px);
-        transform: translateX(200px);
-    }
-     
-  100%
-    {
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
-  
- 
-}  
-@-webkit-keyframes slideleft
-{
-    0%
-    {
-        -webkit-transform: translateX(-200px);
-        transform: translateX(-200px);
-    }
-     
-  100%
-    {
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
-}
-
-
-@keyframes slideleft
-{
-   
-   0%
-    {
-        -webkit-transform: translateX(-200px);
-        transform: translateX(-200px);
-    }
-     
-  100%
-    {
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
-  
- 
-}  
-@-webkit-keyframes slidefrombottom
-{
-    0%
-    {
-        -webkit-transform: translateY(200px);
-        transform: translateY(200px);
-    }
-     
-  100%
-    {
-        -webkit-transform: translateY(0px);
-        transform: translateY(0px);
-    }
-}
-
-
-@keyframes slidefrombottom
-{
-   
-   0%
-    {
-        -webkit-transform: translateY(200px);
-        transform: translateY(200px);
-    }
-     
-  100%
-    {
-        -webkit-transform: translateY(0px);
-        transform: translateY(0px);
-    }
-  
- 
-}  
-.fromright
-{
-     text-align: center;
-            color: #999999;
-            font-size: large;
-             background-position: 50% 0%;
-        -webkit-animation: slideright 3s ease;
-        animation: slideright 3s ease;
-        -webkit-animation-iteration-count: 1;
-        animation-iteration-count: 1;
-}  
-.fromleft
-{
-     text-align: center;
-            color: #999999;
-            font-size: large;
-             background-position: 50% 0%;
-        -webkit-animation: slideleft 3s ease;
-        animation: slideleft 3s ease;
-        -webkit-animation-iteration-count: 1;
-        animation-iteration-count: 1;
-}  
-.frombottom
-{
-     text-align: center;
-            color: #999999;
-            font-size: large;
-             background-position: 50% 0%;
-        -webkit-animation: slidefrombottom 3s ease;
-        animation: slidefrombottom 3s ease;
-        -webkit-animation-iteration-count: 1;
-        animation-iteration-count: 1;
-}  
     </style>
-
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript">
-$(document).ready(function() {
-$('#fadethis').fadeIn(3000);
-});
-$(document).ready(function () {
-    $('#fadeshort').fadeIn(6000);
-});
-$(document).ready(function () {
-    $('#fadelong').fadeIn(9000);
-});
+    $(function ()
+    {
+        $(window).scroll(function ()
+        {
+            $('.fadethis').each(function (i)
+            {
+                var bottom_of_object = $(this).position().top + $(this).outerHeight();
+                var bottom_of_window = $(window).scrollTop() + $(window).height();
 
+                /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
+                bottom_of_window = bottom_of_window + 200;
+                if (bottom_of_window > bottom_of_object)
+                {
+                    $(this).animate({ 'opacity': '1' }, 500);
+                }
+            });
+        });
+    });
 
 </script>
-</head>
-    
-<body
-   style="   background-color: black; 
-             background-repeat: no-repeat; 
-             background-position: center center;"
-     transition:all 4s ease;>
-    <!--background-image: url(brokentriangle.gif); -->
-     
-    <form id="form1" runat="server" >
-           <div >  
-
-        <p class="auto-style3">
-           
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        </p>
-        <p class="auto-style2">
-          </p>
-        <p class="auto-style2">
-            &nbsp;</p>
-       
-        <p class="auto-style2">
-            &nbsp;
-        </p>
-        <p class="fromleft"  id="fadethis" style="display:none" >
-            &nbsp;
-        
-       
-            <asp:ImageButton ID="ImageButton1"  runat="server" class="image-style1" ImageUrl="~/images/VDFlashcards_1280w.png"  PostBackUrl="~/VDFlashcards.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> &nbsp;&nbsp;
-             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-       
-       
-                <asp:ImageButton ID="ImageButton2" runat="server" class="image-style1" ImageUrl="~/images/CZLogo_1280w.jpg"  PostBackUrl="~/blankproject.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle"/>
-        </p>
-             <p class="auto-style2">
-            &nbsp;
-        </p>
-      
-        <p class="fromright"  id="fadeshort" style="display:none">
-            <asp:ImageButton ID="ImageButton3" runat="server" class="image-style1" ImageUrl="~/images/dotnet_1280.jpg"  PostBackUrl="~/blankproject.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> &nbsp;&nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-             <asp:ImageButton ID="ImageButton4" runat="server" class="image-style1" ImageUrl="~/images/chalkLock_squirrely.jpg"  PostBackUrl="~/blankproject.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle"/> 
-        </p>
-        <p class="auto-style2">
-            &nbsp;
-        </p>
-          
-        <p class="frombottom"  id="fadelong" style="display:none">
-            <asp:ImageButton ID="ImageButton5" runat="server" class="image-style1" ImageUrl="~/images/chalkLock001.png"  PostBackUrl="~/blankproject.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> &nbsp;&nbsp;
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   
-            <asp:ImageButton ID="ImageButton6" runat="server" class="image-style1" ImageUrl="~/images/chalkLock001.png"  PostBackUrl="~/blankproject.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle"/> 
-        </p>
-        <p class="auto-style2">
-            &nbsp;
+<body style="font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);-webkit-font-smoothing: antialiased;background-color: #121212;">
+    <div class="container" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;">
+      <div class="heads" style="padding: 50px 0;background-color: #000000;color: #fff;">
+        <div class="content" style="max-width: 600px;margin: 0 auto;padding: 0 50px;">
+             <form id="form1" runat="server">
+        <p class="auto-style1">
+            <br/><br/><br/>
+            <asp:Image id="BackgroundImage" runat="server" ImageUrl="~/images/brokentriangle.gif" ImageAlign="Middle"/>
         </p>
          
-        <p class="image-home">        
-            <asp:ImageButton ID="ImageButton7" runat="server" Height="77px" Width="60px" ImageUrl="~/images/home.png"  PostBackUrl="~/Default.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
-         </p>
-        
-     </div>   
-    </form>
-    
-</body> 
 
+        <p class="auto-style1">
+
+            <asp:ImageButton ID="ImageButton7" runat="server" Height="50px" ImageUrl="~/images/AboutUs_100hv2.jpg"  PostBackUrl="~/aboutus.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
+            <asp:ImageButton ID="ImageButton1" runat="server" Height="50px" ImageUrl="~/images/projects_100hv2.jpg"  PostBackUrl="~/projects.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
+            <asp:ImageButton ID="ImageButton2" runat="server" Height="50px" ImageUrl="~/images/ContactUs_100hv2.jpg"  PostBackUrl="~/contactus.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
+        </p>
+        </form>
+      </div>
+         
+      </div>
+      <div class="tails" style="padding: 50px 0;padding-bottom: 200px;background-color: #fff;color: #121212;">
+        <div class="fadethis" style="max-width: 600px;margin: 0 auto;padding: 0 50px;">
+          <h1 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 10px;margin: 50px 0;text-align: center;"> ALLEN SMITH </h1>
+          <p class="auto-style1">
+            <asp:Image id="Allen" runat="server" ImageUrl="~/images/AboutUs_allen.png" ImageAlign="Middle"/>       
+          </p>
+          <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;"> Programmer and Founder (Montreal)</h2>
+          </div>
+          <div class="fadethis" style="max-width: 600px;margin: 0 auto;padding: 0 50px;">
+          </br>
+          </br>
+          <h1 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 10px;margin: 50px 0;text-align: center;"> PAMELA ESPINOSA </h1>
+          <p class="auto-style1">
+            <asp:Image id="Image1" runat="server" ImageUrl="~/images/AboutUs_pammy.jpg" ImageAlign="Middle"/>       
+          </p>
+          <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;">  Photographer and Graphics Consultant (Montreal)</h2>
+          </div>
+          <div class="fadethis" style="max-width: 600px;margin: 0 auto;padding: 0 50px;">
+          </br>
+          </br>
+          <h1 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 10px;margin: 50px 0;text-align: center;"> DANIEL SMITH </h1>
+          <p class="auto-style1">
+            <asp:Image id="Image2" runat="server" ImageUrl="~/images/AboutUs_daniel.png" ImageAlign="Middle"/>       
+          </p>
+          <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;"> Animator and Digital Artist (Toronto)</h2>
+          </div>
+          <div class="fadethis" style="max-width: 600px;margin: 0 auto;padding: 0 50px;">
+          </br>
+          </br>
+          <h1 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 10px;margin: 50px 0;text-align: center;"> MANISH SEEBUN (BEng)</h1>
+          <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;"> Web Programming and Peer Review</h2>
+          </br>
+          </br>
+          Additional thanks to:
+          </br>
+          </br>
+          Lourence Ngwashi (BCompSc)
+          </br>    
+          Peer Review With Focus on Web Design
+          </div>
+      </div>
+    </div>
+
+</body>
 </html>
-

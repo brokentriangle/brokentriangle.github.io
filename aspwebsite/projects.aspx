@@ -137,7 +137,7 @@
      text-align: center;
             color: #999999;
             font-size: large;
-             background-position: 50% 0%;
+             
         -webkit-animation: slideright 3s ease;
         animation: slideright 3s ease;
         -webkit-animation-iteration-count: 1;
@@ -148,7 +148,7 @@
      text-align: center;
             color: #999999;
             font-size: large;
-             background-position: 50% 0%;
+            
         -webkit-animation: slideleft 3s ease;
         animation: slideleft 3s ease;
         -webkit-animation-iteration-count: 1;
@@ -159,7 +159,7 @@
      text-align: center;
             color: #999999;
             font-size: large;
-             background-position: 50% 0%;
+            
         -webkit-animation: slidefrombottom 3s ease;
         animation: slidefrombottom 3s ease;
         -webkit-animation-iteration-count: 1;
@@ -212,12 +212,16 @@
       
           <p class="fromleft"  id="fadestart" style="display:none" >
            
-             <asp:ImageButton ID="ImageButton1"  runat="server" class="image-style1" ImageUrl="~/images/VDFlashcards_1280w.png"  PostBackUrl="~/Projects/VDFlashcards.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> &nbsp;&nbsp;
-             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+             
+                <asp:ImageButton ID="ImageButton1"  runat="server" class="image-style1" ImageUrl="~/images/VDFlashcards_1280w.png"  PostBackUrl="~/Projects/VDFlashcards.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> &nbsp;&nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
              <asp:ImageButton ID="ImageButton2" runat="server" class="image-style1" ImageUrl="~/images/CZLogo_1280w.jpg"  PostBackUrl="~/Projects/Czhibis.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle"/>
-        </p>
+      
+               
+          </p>
              <p class="auto-style2">
             &nbsp;
+                
         </p>
       
         <p class="fromright"  id="fadeshort" style="display:none">

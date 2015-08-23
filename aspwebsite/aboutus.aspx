@@ -1,170 +1,109 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="aboutus.aspx.cs" Inherits="aspwebsite.aboutus" %>
-
 <!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-<style>
-        .auto-style1 {
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>BrokenTriangle</title>
+</head>
+    <style 
+        type="text/css">
+            .fadethis 
+            {
+                opacity:0;
+            }
+               .auto-style1 
+        {
             text-align: center;
             color: #999999;
             font-size: large;
+             background-position: 100% 0%;
         }
-      .center-image {
-       text-align: center;
-          
-         height: 90%;
-     
-          
-      }
-      .format-text {
-            text-align:center;
-            width: 90%;
-          
-      }   
-        .auto-style2 
-        {
-            text-align: left;
-            left: 50px;
-          }
-    #panes { position: absolute; top: 0; bottom: 0; width: 100%; height: 100%;
-        left: 10px;
-    }
-
-
-    #top {
-        position: relative;
-        text-align: center;
-        width: 100%;
-        height: 50%;
-        background: black;
-        
-    }
-
-    #left-bottom {
-        position: absolute;
-      
-        left: 50px;
-        text-align: left;
-        width: 50%;
-        height: 40%;   
-        background: black;
-      
-        
-    }
-
-    #right-bottom {
-        position: relative;
-        text-align: left;
-        float: right;
-        width: 50%;
-        height: 40%;
-        background: black;
-    }
-     #next-bottom {
-           position: relative;
-     
-       float:left;
-        text-align: left;
-        width: 50%;
-        height: 40%;   
-        background: black;
-        margin-left: 5px;
-        top: 0px;
-        left: 0px;
-    }
-    #image {position:inherit;}
-    #image1 {position:inherit;}
-    #Image2 {position:inherit;}
-    #text1{color: rgb(195, 195, 195); width: 90%; font-family: 'Century Gothic', Arial; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 28.7999992370605px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(0, 0, 0); clip: rect(auto, auto, auto, auto); top: auto;}
-    
-</style>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    </style>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript">
-$(document).ready(function() {
-$('#fadethis').fadeIn(5000);
-});
+    $(function ()
+    {
+        $(window).scroll(function ()
+        {
+            $('.fadethis').each(function (i)
+            {
+                var bottom_of_object = $(this).position().top + $(this).outerHeight();
+                var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+                /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
+                bottom_of_window = bottom_of_window + 200;
+                if (bottom_of_window > bottom_of_object)
+                {
+                    $(this).animate({ 'opacity': '1' }, 500);
+                }
+            });
+        });
+    });
 
 </script>
-</head>
-<body  style="background-color: black;">
-    <form id="form1" runat="server" >
-<div id="panes">
-         <p class="auto-style1">
-           
+<body style="font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);-webkit-font-smoothing: antialiased;background-color: #121212;">
+    <div class="container" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;">
+      <div class="heads" style="padding: 50px 0;background-color: #000000;color: #fff;">
+        <div class="content" style="max-width: 600px;margin: 0 auto;padding: 0 50px;">
+             <form id="form1" runat="server">
+        <p class="auto-style1">
+            <br/><br/><br/>
             <asp:Image id="BackgroundImage" runat="server" ImageUrl="~/images/brokentriangle.gif" ImageAlign="Middle"/>
         </p>
-            
-               <p class="auto-style1"  id="fadethis" style="display:none">
-
-            <asp:ImageButton ID="ImageButton5" runat="server" Height="50px" ImageUrl="~/images/AboutUs_100hv2.jpg"  PostBackUrl="~/aboutus.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
-            <asp:ImageButton ID="ImageButton6" runat="server" Height="50px" ImageUrl="~/images/projects_100hv2.jpg"  PostBackUrl="~/projects.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
-            <asp:ImageButton ID="ImageButton8" runat="server" Height="50px" ImageUrl="~/images/ContactUs_100hv2.jpg"  PostBackUrl="~/contactus.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
-        </p>
-        <p class="auto-style2">
-          &nbsp;  
-        </p>
-    <div id="next-bottom">
-       
-        <asp:Image id="image1" runat="server" ImageUrl="~/images/AboutUs_allen.png" class="center-image"/>
-       
-     </div>
-    <div id="next-bottom">
-     
-      <p  class="auto-style2">
-          <span id="text1"  >   
-          
-           Allen Smith - Programmer 
-          </br>
-            (Montreal)
-              </span>
-                 </p>
          
-     </div>
-     
-    <div id="next-bottom">
-       
-        <asp:Image id="image2" runat="server" ImageUrl="~/images/AboutUs_pammy.jpg" class="center-image"/>
-       
- </div> 
 
-    <div id="next-bottom">
-      
-        <p id="text1" >
-        
-            Pamela Espinosa - Photographer and Graphics Consultant 
+        <p class="auto-style1">
 
-            </br>
-        
-            (Montreal)
+            <asp:ImageButton ID="ImageButton7" runat="server" Height="50px" ImageUrl="~/images/AboutUs_100hv2.jpg"  PostBackUrl="~/aboutus.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
+            <asp:ImageButton ID="ImageButton1" runat="server" Height="50px" ImageUrl="~/images/projects_100hv2.jpg"  PostBackUrl="~/projects.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
+            <asp:ImageButton ID="ImageButton2" runat="server" Height="50px" ImageUrl="~/images/ContactUs_100hv2.jpg"  PostBackUrl="~/contactus.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
         </p>
-          
- </div>     
-         <div id="next-bottom">
-       
-        <asp:Image id="image3" runat="server" ImageUrl="~/images/AboutUs_daniel.png" class="center-image"/>
-       
-     </div>
-
-    <div id="next-bottom">
-      
-        <p id="text1" >
-        
-            Daniel Smith - Daniel Smith - Animator and Digital Artist 
-
-
-            </br>
-        
-          (Toronto) 
-        </p>
-           
-  </div>
-</div>
-
-
-    </form>
-
+        </form>
+      </div>
+         
+      </div>
+      <div class="tails" style="padding: 50px 0;padding-bottom: 200px;background-color: #fff;color: #121212;">
+        <div class="fadethis" style="max-width: 600px;margin: 0 auto;padding: 0 50px;">
+          <h1 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 10px;margin: 50px 0;text-align: center;"> ALLEN SMITH </h1>
+          <p class="auto-style1">
+            <asp:Image id="Allen" runat="server" ImageUrl="~/images/AboutUs_allen.png" ImageAlign="Middle"/>       
+          </p>
+          <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;"> Programmer and Founder (Montreal)</h2>
+          </div>
+          <div class="fadethis" style="max-width: 600px;margin: 0 auto;padding: 0 50px;">
+          </br>
+          </br>
+          <h1 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 10px;margin: 50px 0;text-align: center;"> PAMELA ESPINOSA </h1>
+          <p class="auto-style1">
+            <asp:Image id="Image1" runat="server" ImageUrl="~/images/AboutUs_pammy.jpg" ImageAlign="Middle"/>       
+          </p>
+          <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;">  Photographer and Graphics Consultant (Montreal)</h2>
+          </div>
+          <div class="fadethis" style="max-width: 600px;margin: 0 auto;padding: 0 50px;">
+          </br>
+          </br>
+          <h1 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 10px;margin: 50px 0;text-align: center;"> DANIEL SMITH </h1>
+          <p class="auto-style1">
+            <asp:Image id="Image2" runat="server" ImageUrl="~/images/AboutUs_daniel.png" ImageAlign="Middle"/>       
+          </p>
+          <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;"> Animator and Digital Artist (Toronto)</h2>
+          </div>
+          <div class="fadethis" style="max-width: 600px;margin: 0 auto;padding: 0 50px;">
+          </br>
+          </br>
+          <h1 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 10px;margin: 50px 0;text-align: center;"> MANISH SEEBUN (BEng)</h1>
+          <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;"> Web Programming and Peer Review (Montreal)</h2>
+          </br>
+          </br>
+          Additional thanks to:
+          </br>
+          </br>
+          Lourence Ngwashi (BCompSc)
+          </br>    
+          Peer Review With Focus on Web Design
+          </div>
+      </div>
+    </div>
 
 </body>
 </html>

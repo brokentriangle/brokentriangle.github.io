@@ -133,7 +133,7 @@
         <!-- HOME BUTTON -->
         <div id="test"  class="fadethis" > 
             <p class="home-button">        
-                <asp:ImageButton ID="ImageButton1" runat="server" Height="77px" Width="60px" ImageUrl="~/images/home.png"  PostBackUrl="~/Default.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
+                <asp:ImageButton ID="ImageButton1" runat="server" Height="77px" Width="60px" ImageUrl="~/images/home.png"  PostBackUrl="~/projects.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
                 </br>
                 </br>
             </p>

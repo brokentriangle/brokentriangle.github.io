@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Dotnet.aspx.cs" Inherits="aspwebsite.Projects.Dotnet" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Squirrely.aspx.cs" Inherits="aspwebsite.Projects.Squirrely" %>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -75,7 +75,7 @@
 <body class="body-style">
     <form id="form1" runat="server" class="project_content">
         <!-- TOP PROJECT IMAGE -->
-        <asp:Image id="image1" runat="server" ImageUrl="~/images/dotnet01.jpg" ImageAlign="Middle" Width="100%"/>
+        <asp:Image id="image1" runat="server" ImageUrl="~/images/chalkLock_squirrely.jpg" ImageAlign="Middle" Width="100%"/>
         </br>
         </br>
         
@@ -84,34 +84,70 @@
             </br>
             </br>
             PROJECT:
-            This Website
-            </br>
-            </br>
+            </br> 
+            SQUIRRELY
+            </br> 
             PLATFORMS:
-            Web
-            </br>
-            </br>
+            </br> 
+            Android and iOS
+            </br> 
+            </br> 
             STATUS:
-            In Development
-            </br>
-            </br>
-            CONTRIBUTORS:
-            Allen Smith (Design and Programming)
-            </br>
-            Manish Seebun (Design and Programming)
-            </br>
-            </br>
-            SUMMARY:
-            </br>
-            </br>
-            Cargocollective has been a great home for us, but as developers we feel the need to expand our skill set and look to the future. In doing so we have decided to start development with the .NET version of this website. The new version of the website will no longer be be based on a template, but rather written from the ground up using the .NET framework and C#. We feel that this will give us both more control over the user experience, and also allow us a means of expressing our skills while looking to the future of coding and development with a more universal language for multi-platform development. A special thanks goes out to Manish Seebun who I have joined partners with in the development of this project. We are using AWS for hosting the site.
-            </br>           
-            </br>
-            The full project is available on github if anyone is interested:
-            <a href="https://github.com/brokentriangle/brokentriangle.github.io" target="_blank">https://github.com/brokentriangle/brokentriangle.github.io</a>
-            </br>           
-            </br>
+            </br> 
+            In Development: Since March 2014.
+            Projected Release Date: Fall 2015
+        </br>
+        </br>  
+        CONTRIBUTORS:
+        </br> 
+        Allen Smith (Design and Programming)
+        </br> 
+        Daniel Smith (3D Artistry and Design)
+        </br>           
+        </br>
+             <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/images/beta.png"  PostBackUrl="http://play.google.com/apps/testing/bt.Squirrely/" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
+               
+        
+        </br>           
+        </br>
+        SUMMARY:
+        Squirrley is a 2D sidescroller game that uses Unity as the gaming engine. We have officially made it to Beta testing! We still seem to be on track for our release date this fall, and we are excited to bring you some new images. The scripts being used are written in C#, and right now we are currently tweaking and making small adjustments to the game to get the feel just right. Most of our updates will now be posted to our beta group which we will work closely with until the release date. If you have been invited to be a beta tester, then please click on the beta icon and follow the link to download the beta version of the game.  
+        </br>           
+        </br>
         </div>
+        
+        <!-- FIRST FADE DIV --> 
+        <div id="test"  class="fadethis" > 
+        </br>           
+        </br>
+                  <asp:Image id="image3" runat="server" ImageUrl="~/images/squirrely02.gif" ImageAlign="Middle"/>
+        </br>           
+        </br>
+            A quick look at the scene in Unity.
+
+        </div>
+        
+        <!-- FIRST FADE DIV --> 
+        <div id="test"  class="fadethis" > 
+        </br>           
+        </br>
+                    <asp:Image id="image2" runat="server" ImageUrl="~/images/squirrely01.png" ImageAlign="Middle"/>
+        </br>           
+        </br>
+            A screenshot of the game. We just got Google Ads set up and were testing it out.
+        </div>
+        
+        <!-- FIRST FADE DIV --> 
+        <div id="test"  class="fadethis" > 
+        </br>           
+        </br>
+                <asp:Image id="image4" runat="server" ImageUrl="~/images/squirrely03.png" ImageAlign="Middle"/>
+        </br>           
+        </br>
+            A sample of some of the code that is running. This one creates an infinity looper on the tree heights, taking a random value from within a range where we know the jump heights are possible to make.
+        </div>
+
+      
 
         <!-- HOME BUTTON -->
         <div id="test"  class="fadethis" > 

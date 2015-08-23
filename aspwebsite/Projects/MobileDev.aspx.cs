@@ -5,15 +5,10 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace aspwebsite
+namespace aspwebsite.Projects
 {
-    public partial class Sample_05 : System.Web.UI.Page
+    public partial class MobileDev : System.Web.UI.Page
     {
-        protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
         protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
         {
 
@@ -22,7 +17,7 @@ namespace aspwebsite
         {
 
         }
-        protected void ImageButton3_Click(object sender, ImageClickEventArgs e)
+        protected void Page_Load(object sender, EventArgs e)
         {
 
         }

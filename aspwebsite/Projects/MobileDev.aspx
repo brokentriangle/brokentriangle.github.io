@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Dotnet.aspx.cs" Inherits="aspwebsite.Projects.Dotnet" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MobileDev.aspx.cs" Inherits="aspwebsite.Projects.MobileDev" %>
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -75,7 +76,7 @@
 <body class="body-style">
     <form id="form1" runat="server" class="project_content">
         <!-- TOP PROJECT IMAGE -->
-        <asp:Image id="image1" runat="server" ImageUrl="~/images/dotnet01.jpg" ImageAlign="Middle" Width="100%"/>
+        <asp:Image id="image1" runat="server" ImageUrl="~/images/DevelopingInCloud01.jpg" ImageAlign="Middle" Width="100%"/>
         </br>
         </br>
         
@@ -83,35 +84,12 @@
         <div id="test"  class="fadethis" > 
             </br>
             </br>
-            PROJECT:
-            This Website
-            </br>
-            </br>
-            PLATFORMS:
-            Web
-            </br>
-            </br>
-            STATUS:
-            In Development
-            </br>
-            </br>
-            CONTRIBUTORS:
-            Allen Smith (Design and Programming)
-            </br>
-            Manish Seebun (Design and Programming)
-            </br>
-            </br>
-            SUMMARY:
-            </br>
-            </br>
-            Cargocollective has been a great home for us, but as developers we feel the need to expand our skill set and look to the future. In doing so we have decided to start development with the .NET version of this website. The new version of the website will no longer be be based on a template, but rather written from the ground up using the .NET framework and C#. We feel that this will give us both more control over the user experience, and also allow us a means of expressing our skills while looking to the future of coding and development with a more universal language for multi-platform development. A special thanks goes out to Manish Seebun who I have joined partners with in the development of this project. We are using AWS for hosting the site.
-            </br>           
-            </br>
-            The full project is available on github if anyone is interested:
-            <a href="https://github.com/brokentriangle/brokentriangle.github.io" target="_blank">https://github.com/brokentriangle/brokentriangle.github.io</a>
-            </br>           
+            In love of all things mobile, we have decided to move to the cloud and try testing some of our development enviroments there. Since my primay OS is a Gentoo based Linux distro, I run various custom virtual dev enviroments using Virtualbox, but I feel that moving to the cloud might help us to free up more local resources while enjoying more flexability and scalability for the future. We are using CloudShare which allows for easy browser based accessibility from Linux without the need for a separate RDP client. The new website that we are working on in being developed in part using this cloud based dev environment. We are using Visual Studio Community Edition, and have tried Unity as well. However Unity's resource intensive graphics requirements will keep in on our local VM's for now. 
+             </br>           
             </br>
         </div>
+
+      
 
         <!-- HOME BUTTON -->
         <div id="test"  class="fadethis" > 

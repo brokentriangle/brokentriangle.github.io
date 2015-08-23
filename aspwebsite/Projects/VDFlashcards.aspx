@@ -169,7 +169,7 @@ class="body-style">
                  </div>
             <div id="test"  class="fadethis" > 
                         <p class="home-button">        
-                        <asp:ImageButton ID="ImageButton1" runat="server" Height="77px" Width="60px" ImageUrl="~/images/home.png"  PostBackUrl="~/Default.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
+                        <asp:ImageButton ID="ImageButton1" runat="server" Height="77px" Width="60px" ImageUrl="~/images/home.png"  PostBackUrl="~/projects.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
                         </p>
               </div>
     </form>
