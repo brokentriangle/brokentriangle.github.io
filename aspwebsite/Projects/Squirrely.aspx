@@ -120,31 +120,38 @@
         <div id="test"  class="fadethis" > 
         </br>           
         </br>
-                  <asp:Image id="image3" runat="server" ImageUrl="~/images/squirrely02.gif" ImageAlign="Middle"/>
+                  <asp:Image id="image3" runat="server" ImageUrl="~/images/squirrely02.gif" ImageAlign="Middle" Width="50%"/>
         </br>           
         </br>
             A quick look at the scene in Unity.
-
+  </br>           
+        </br>
         </div>
         
         <!-- FIRST FADE DIV --> 
         <div id="test"  class="fadethis" > 
         </br>           
         </br>
-                    <asp:Image id="image2" runat="server" ImageUrl="~/images/squirrely01.png" ImageAlign="Middle"/>
+                    <asp:Image id="image2" runat="server" ImageUrl="~/images/squirrely01.png" ImageAlign="Middle"  Width="100%"/>
         </br>           
         </br>
+       
             A screenshot of the game. We just got Google Ads set up and were testing it out.
+        </br>           
+        </br>
         </div>
         
         <!-- FIRST FADE DIV --> 
         <div id="test"  class="fadethis" > 
         </br>           
         </br>
-                <asp:Image id="image4" runat="server" ImageUrl="~/images/squirrely03.png" ImageAlign="Middle"/>
+      
+                <asp:Image id="image4" runat="server" ImageUrl="~/images/squirrely03.png" ImageAlign="Middle" Width="100%"/>
         </br>           
         </br>
             A sample of some of the code that is running. This one creates an infinity looper on the tree heights, taking a random value from within a range where we know the jump heights are possible to make.
+        </br>           
+        </br>
         </div>
 
       
