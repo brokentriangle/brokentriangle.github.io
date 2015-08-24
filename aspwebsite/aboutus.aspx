@@ -29,9 +29,7 @@
             {
                 var bottom_of_object = $(this).position().top + $(this).outerHeight();
                 var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-                /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
-                bottom_of_window = bottom_of_window + 200;
+                                 bottom_of_window = bottom_of_window + 200;
                 if (bottom_of_window > bottom_of_object)
                 {
                     $(this).animate({ 'opacity': '1' }, 500);
@@ -43,16 +41,13 @@
 </script>
 <body style="font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);-webkit-font-smoothing: antialiased;background-color: #121212;">
     <div class="container" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;">
-      <div class="heads" style="padding: 50px 0;background-color: #000000;color: #fff;">
-        <div class="content" style="max-width: 600px;margin: 0 auto;padding: 0 50px;">
+      <div class="heads" style="padding: 0px 0;background-color: #000000;color: #fff;">
+        <div class="content" style="max-width: 600px;margin: 0 auto;padding: 0 0px;">
              <form id="form1" runat="server">
         <p class="auto-style1">
             <asp:Image id="BackgroundImage" runat="server" ImageUrl="~/images/brokentriangle.gif" ImageAlign="Middle"/>
         </p>
-         
-
-        <p class="auto-style1">
-
+                <p class="auto-style1">
             <asp:ImageButton ID="ImageButton7" runat="server" Height="50px" ImageUrl="~/images/AboutUs_100hv2.jpg"  PostBackUrl="~/aboutus.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
             <asp:ImageButton ID="ImageButton1" runat="server" Height="50px" ImageUrl="~/images/projects_100hv2.jpg"  PostBackUrl="~/projects.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
             <asp:ImageButton ID="ImageButton2" runat="server" Height="50px" ImageUrl="~/images/ContactUs_100hv2.jpg"  PostBackUrl="~/contactus.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 

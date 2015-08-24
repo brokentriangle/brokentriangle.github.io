@@ -34,7 +34,6 @@ $('#fadethis').fadeIn(5000);
      
     <form id="form1" runat="server">
         <p class="auto-style1">
-            <br/><br/><br/>
             <asp:Image id="BackgroundImage" runat="server" ImageUrl="~/images/brokentriangle.gif" ImageAlign="Middle"/>
         </p>
          
