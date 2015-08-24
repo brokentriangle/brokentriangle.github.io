@@ -231,7 +231,7 @@
                 <p class="fromleft">
                 <asp:ImageButton id="VD" runat="server" ImageUrl="~/images/VDFlashcards_1280w.png"  PostBackUrl="~/Projects/VDFlashcards.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle" Width="60%"/>       
                 </p>
-                <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;"> Flashcard Style Study App Availavle on Google Play</h2>
+                <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;"> Flashcard Style Study App Available on Google Play</h2>
             </div>
          </div>
          
@@ -244,7 +244,7 @@
                 <p class="fromright">
                 <asp:ImageButton id="CZ" runat="server" ImageUrl="~/images/Czhibis_logo_1280w.jpg"  PostBackUrl="~/Projects/Czhibis.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle" Width="60%"/>       
                 </p>
-                <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;"> HOME AUTOMATION LINUX AND SCRIPTING BASED</h2>
+                <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;"> Home Automation Linux and Scripting Based</h2>
             </div>
          </div>
 
@@ -252,11 +252,11 @@
         
           <div class="tails" style="padding: 10px 0;padding-bottom: 10px;background-color:#121212 ;color: #999999;">
             <div class="fadeproject" style="max-width: 600px;margin: 0 auto;padding: 0 50px;">
-                <h1 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 10px;margin: 50px 0;text-align: center;"> THIS WEBSITE </h1>
+                <h1 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 10px;margin: 50px 0;text-align: center;"> ABOUT THIS WEBSITE </h1>
                 <p class="fromleft">
                 <asp:ImageButton id="Website" runat="server" ImageUrl="~/images/dotnet01.jpg"  PostBackUrl="~/Projects/Dotnet.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle" Width="60%"/>       
                 </p>
-                <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;"> A Website Using the ASP.NET Framework</h2>
+                <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;">The ASP.NET Framework and our Cloud Server</h2>
             </div>
          </div>
 
@@ -267,7 +267,7 @@
                 <p class="fromright">
                 <asp:ImageButton id="Cloud" runat="server" ImageUrl="~/images/DevelopingInCloud01.jpg"  PostBackUrl="~/Projects/MobileDev.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle" Width="60%"/>       
                 </p>
-                <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;"> This Website Created in Part Using Cloud Based Development Enviroments</h2>
+                <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;"> How we are Developing Software in the Cloud</h2>
             </div>
          </div>
 
@@ -289,7 +289,7 @@
                 <p class="fromright">
                <asp:ImageButton ID="Squirrely" runat="server" ImageUrl="~/images/chalkLock_squirrely.jpg"  PostBackUrl="~/Projects/Squirrely.aspx"  OnClick="ImageButton2_Click" ImageAlign="Middle" Width="60%"/> 
        </p>
-                <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;"> A Game Created Using the Unity Game Engine Coming This Fall</h2>
+                <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;"> A Game Created Using the Unity Game Engine (Coming This Fall)</h2>
             </div>
          </div>
 
