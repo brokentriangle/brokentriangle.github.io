@@ -104,6 +104,12 @@
             SUMMARY:
             </br>
             </br>
+            UPDATE: Aug 26, 2015
+            </br>
+            </br>
+            Congrats! You are looking at our new website. We've switched over to using AWS and EC2 to host this website. We have tried to keep the design simple and more mobile friendly. We are making small changes and still cleaning things up, but are pretty happy with the results. We are using some CSS3 animations as well as JQuery for the effects.  
+            </br>
+            </br>
             Cargocollective has been a great home for us, but as developers we feel the need to expand our skill set and look to the future. In doing so we have decided to start development with the .NET version of this website. The new version of the website will no longer be be based on a template, but rather written from the ground up using the .NET framework and C#. We feel that this will give us both more control over the user experience, and also allow us a means of expressing our skills while looking to the future of coding and development with a more universal language for multi-platform development. A special thanks goes out to Manish Seebun who I have joined partners with in the development of this project. We are using AWS for hosting the site.
             </br>           
             </br>
