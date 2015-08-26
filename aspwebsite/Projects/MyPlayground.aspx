@@ -105,16 +105,26 @@
             </br>
         </div>
         
-     
-        <!-- SIXTH FADE DIV (TEXT) -->
+              <!-- SIXTH FADE DIV (TEXT) -->
+        <div id="test"  class="fadethis" > 
+            </br>
+            </br>
+            <span id="textheader">Web Sample mockup 05:&nbsp; </span>
+            <a href="../Samples/Sample%2005.aspx">../Sample 05.aspx</a>
+            </br>
+            </br>
+        </div>
+        
+                <!-- SIXTH FADE DIV (TEXT) -->
         <div id="test"  class="fadethis" > 
             </br>
             </br>
             <span id="textheader">Web Sample mockup 06:&nbsp; </span>
-            <a href="../Samples/Sample%2006.aspx">../Samples/Sample 06.aspx</a>
+            <a href="../Samples/Sample%2006.aspx">../Sample 06.aspx</a>
             </br>
             </br>
         </div>
+          
 
      
       

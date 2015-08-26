@@ -193,20 +193,7 @@
     <!--background-image: url(brokentriangle.gif); -->
      
     <form id="form1" runat="server">
-           <p class="auto-style1">
-           
-            <asp:Image id="BackgroundImage" runat="server" ImageUrl="~/images/brokentriangle.gif" ImageAlign="Middle"/>
-        </p>
-            
-               <p class="auto-style1"  id="fadethis" style="display:none">
-
-            <asp:ImageButton ID="ImageButton5" runat="server" Height="50px" ImageUrl="~/images/AboutUs_100hv2.jpg"  PostBackUrl="~/aboutus.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
-            <asp:ImageButton ID="ImageButton6" runat="server" Height="50px" ImageUrl="~/images/projects_100hv2.jpg"  PostBackUrl="~/projects.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
-            <asp:ImageButton ID="ImageButton8" runat="server" Height="50px" ImageUrl="~/images/ContactUs_100hv2.jpg"  PostBackUrl="~/contactus.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
-        </p>
-        <p class="auto-style2">
-          &nbsp;  
-        </p>
+ 
     
       
           <p class="fromleft"  id="fadestart" style="display:none" >
