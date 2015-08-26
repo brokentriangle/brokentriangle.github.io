@@ -99,7 +99,7 @@
             </br>
             </br>
              <span id="textheader">RUBY BLOG WITH POSTGRESQL...MIGHT TURN THIS INTO A NOTES SECTION:&nbsp; </span>
-            Here is a simple blog setup using Heroku and postgres with Ruby. There is also basic HTTP authentication for the blog postings. I might turn this into an online notes section for this website.
+            Here is a simple blog I setup using Heroku and postgres with Ruby. There is also basic HTTP authentication for the blog postings. I might turn this into an online notes section for this website.
             <a href="http://thawing-retreat-8278.herokuapp.com/"; id="link1"; target="_blank">http://thawing-retreat-8278.herokuapp.com/</a>
             </br>
             </br>
