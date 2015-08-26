@@ -30,31 +30,30 @@
             });
         });
     });
-<script src="fade.js"></script>
+</script>
 
 <body style="font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);-webkit-font-smoothing: antialiased;background-color: #121212;">
     <div class="container" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;">
       <div class="heads" style="padding: 50px 0;background-color: #fff;color: #121212;">
         <div class="content" style="max-width: 600px;margin: 0 auto;padding: 0 50px;">
-          <h1 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 10px;margin: 50px 0;text-align: center;"> Sample</h1>
+          <h1 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 10px;margin: 50px 0;text-align: center;"> SAMPLE PROJECT TITLE</h1>
           <h2 class="center" style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0;text-align: center;">
-           Sample Text Here
+             <asp:Image id="image1" runat="server" ImageUrl="~/images/Czhibis_logo_1280w.jpg" ImageAlign="Middle" Width="100%"/>
+              
         </div>
       </div>
       <div class="tails" style="padding: 50px 0;padding-bottom: 200px;background-color: #0a0a0a;color: #fff;">
         <div class="fadethis" style="max-width: 600px;margin: 0 auto;padding: 0 50px;">
-          <h1 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 10px;margin: 50px 0;text-align: center;"> FADE IN SECTION </h1>
+          <h1 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 10px;margin: 50px 0;text-align: center;"> SAMPLE PROJECT INFO </h1>
           <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0;"> 
        
      </h2>
             <p>
-
-                   ADDITIONAL DETAILS: 
-                        </br>
-                        I started writing this app while I was attending Concordia University. All I wanted was a simple flashcard app with a nice clean interface where I could type up my cards on my computer and then be able to study them while taking the bus and metro home. I also wanted to be able to edit them on my phone and make minor corrections to my notes without an internet connection. I checked everywhere but I could not find anything that did just that. So...how hard could it be right?...and so I set out to write an app that did just that. So here I am 6000 lines of finished code later, although I&#39;ve written and rewritten probably 3 times more, with an app that finally did what I wanted.
-                       </br>
-                        Written in Java using Eclipse, I recently just transitioned everything over to Android Studio. Here is a small section of code from the app that I chose at random just to give you an idea into what it looks like behind the interface. This first section of code executes when you click on the up one dir button when you are browsing for a file. It takes the location that you are loading the file from and saves it, so the next time you try to load a file you will be in the last location where you previously loaded from.
-                        </br>
+               
+                One day I came home late from work after a long day. I opened the door and the lights were all off, there was no music playing, and the place just felt, unwelcoming. The more I thought about it, the more I disliked it. When I come home, my home should greet me...and so project Czhibis began.
+                What I wanted to create was a more personalized home experience where the interaction between me and my environment happened seamlessly. I didn't want to have to push a button, or flip a switch...It should just know.  I wanted music playing when I got home. I wanted my monitor to turn on by itself with a video wallpaper running only while I was at home. I wanted the lights adjusted to the way i wanted them. I wanted to backup my data only when I wasn't there. I wanted it to do the same thing for my wife, but customized to her, with her music, monitor, lights, etc. But how would I do this...motion detector...video camera...No. One thing I always have with me is my smartphone, so I wanted to turn that into a key.  So as soon as that specific phone connects to the home network, the environment responds.}
+                Here is some of the projects source code which uses an OOP model with default constructors. If the MAC address found on the phone connected to the local area network is verified against the allowed list of MAC addresses, the associated on connect script is executed, and the unique environment variables contained within that script for that particular client/user are run. 
+                  </br>
                         </br>
             </p>
         </div>
