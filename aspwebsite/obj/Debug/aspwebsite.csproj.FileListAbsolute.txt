@@ -39,4 +39,3 @@ C:\Users\hannibal\Documents\GitHub\btwebsite\brokentriangle.github.io\aspwebsite
 C:\Users\hannibal\Documents\GitHub\btwebsite\brokentriangle.github.io\aspwebsite\bin\aspwebsite.pdb
 C:\Users\hannibal\Documents\GitHub\btwebsite\brokentriangle.github.io\aspwebsite\obj\Debug\aspwebsite.dll
 C:\Users\hannibal\Documents\GitHub\btwebsite\brokentriangle.github.io\aspwebsite\obj\Debug\aspwebsite.pdb
-C:\Users\hannibal\Documents\GitHub\btwebsite\brokentriangle.github.io\aspwebsite\obj\Debug\aspwebsite.csprojResolveAssemblyReference.cache

@@ -80,7 +80,7 @@
         </br>
         
         <!-- FIRST FADE DIV --> 
-        <div id="test"  class="fadethis" > 
+        <div id="first"  class="fadethis" > 
             </br>
             </br>
             PROJECT:
@@ -105,8 +105,12 @@
         Daniel Smith (3D Artistry and Design)
         </br>           
         </br>
-             <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/images/beta.png"  PostBackUrl="http://play.google.com/apps/testing/bt.Squirrely/" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
-               
+              
+                 <asp:ImageButton ID="ImageButton2" runat="server"
+                    ImageUrl="~/images/beta.png" CauseValidation="false"
+                    OnClientClick="document.location.href = 'http://play.google.com/apps/testing/bt.Squirrely/';
+                    return false" 
+                     />     
         
         </br>           
         </br>
