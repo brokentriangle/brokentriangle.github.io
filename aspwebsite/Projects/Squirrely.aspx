@@ -106,10 +106,13 @@
         </br>           
         </br>
             
-             <a href="http://play.google.com/apps/testing/bt.Squirrely/">
-                <asp:image id="Image5" runat="server" imageurl="~/images/beta.png" />
-            </a>   
-        
+               
+       
+
+            <a href=http://play.google.com/apps/testing/bt.Squirrely/>
+
+            <asp:Image id="image5" runat="server" ImageUrl="~/images/beta.png"/>
+            </a>
         </br>           
         </br>
         SUMMARY:
