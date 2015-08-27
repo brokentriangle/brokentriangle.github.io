@@ -105,12 +105,10 @@
         Daniel Smith (3D Artistry and Design)
         </br>           
         </br>
-              
-                 <asp:ImageButton ID="ImageButton2" runat="server"
-                    ImageUrl="~/images/beta.png" CauseValidation="false"
-                    OnClientClick="document.location.href = 'http://play.google.com/apps/testing/bt.Squirrely/';
-                    return false" 
-                     />     
+            
+             <a href="http://play.google.com/apps/testing/bt.Squirrely/">
+                <asp:image id="Image5" runat="server" imageurl="~/images/beta.png" />
+            </a>   
         
         </br>           
         </br>
