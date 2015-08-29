@@ -108,7 +108,7 @@
             
                
        
-             <a href="http://play.google.com/apps/testing/bt.Squirrely/"; id="link1"; target="_blank">Beta Testers</a>
+             <a href="https://play.google.com/apps/testing/bt.Squirrely/"; id="link1"; target="_blank">Beta Testers</a>
            
         </br>           
         </br>
