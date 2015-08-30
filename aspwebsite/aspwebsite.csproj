@@ -82,6 +82,7 @@
     <Content Include="Samples\Sample 05.aspx" />
     <Content Include="Samples\Sample 06.aspx" />
     <Content Include="Projects\VDFlashcards.aspx" />
+    <Content Include="Samples\Sample 07.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -215,6 +216,13 @@
     </Compile>
     <Compile Include="Projects\WorkingOnIt.aspx.designer.cs">
       <DependentUpon>WorkingOnIt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\Sample 07.aspx.cs">
+      <DependentUpon>Sample 07.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Samples\Sample 07.aspx.designer.cs">
+      <DependentUpon>Sample 07.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
