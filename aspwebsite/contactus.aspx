@@ -75,8 +75,9 @@ $(document).ready(function() {
 </head>
     
 <body class="body-style">
+     <div class="container" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;">
     <form id="form1" runat="server" class="project_content">
-       
+      
         <p class="auto-style1">
            
             <asp:Image id="BackgroundImage" runat="server" ImageUrl="~/images/brokentriangle.gif" ImageAlign="Middle"/>
@@ -91,10 +92,10 @@ $(document).ready(function() {
         <p class="auto-style2">
           &nbsp;  
         </p>
-        
+       
        
         <!-- FIRST FADE DIV --> 
-        <div id="test"  class="form-left" > 
+        <div id="test"  class="form-left"> 
             
             <strong>Please fill in the form to contact us</strong>
           </br>
@@ -143,7 +144,7 @@ $(document).ready(function() {
             </br>
                 </br>
             </div>
-
+        </div>
     </form>
 </body> 
 </html>
