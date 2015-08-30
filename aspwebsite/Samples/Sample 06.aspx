@@ -42,7 +42,7 @@
               
         </div>
       </div>
-      <div class="tails" style="padding: 50px 0;padding-bottom: 200px;background-color: #0a0a0a;color: #fff;">
+      <div class="tails"; data-role="page"; style="padding: 50px 0;padding-bottom: 200px;background-color: #0a0a0a;color: #fff;">
         <div class="fadethis" style="max-width: 600px;margin: 0 auto;padding: 0 50px;">
           <h1 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 10px;margin: 50px 0;text-align: center;"> SAMPLE PROJECT INFO </h1>
           <h2 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0;"> 

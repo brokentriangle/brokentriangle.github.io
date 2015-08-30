@@ -82,8 +82,7 @@
         </br>
         </br>
         
-        <!-- FIRST FADE DIV --> 
-        <div id="test"  class="fadethis" > 
+       
             </br>
             </br>
             SUMMARY:
@@ -92,10 +91,10 @@
             Welcome to my digital playground. This is where I play around with various web layouts and technologies. A place to experiment and test new things using a live enviroment.
             </br>           
             </br>
-        </div>
+       
 
         <!-- FOURTH FADE DIV (TEXT) -->
-        <div id="test"  class="fadethis" > 
+      
             </br>
             </br>
              <span id="textheader">RUBY BLOG WITH POSTGRESQL...MIGHT TURN THIS INTO A NOTES SECTION:&nbsp; </span>
@@ -103,34 +102,34 @@
             <a href="http://thawing-retreat-8278.herokuapp.com/"; id="link1"; target="_blank">http://thawing-retreat-8278.herokuapp.com/</a>
             </br>
             </br>
-        </div>
+       
         
               <!-- SIXTH FADE DIV (TEXT) -->
-        <div id="test"  class="fadethis" > 
+        
             </br>
             </br>
             <span id="textheader">Web Sample mockup 05:&nbsp; </span>
             <a href="../Samples/Sample%2005.aspx">../Sample 05.aspx</a>
             </br>
             </br>
-        </div>
+        
         
                 <!-- SIXTH FADE DIV (TEXT) -->
-        <div id="test"  class="fadethis" > 
+        
             </br>
             </br>
             <span id="textheader">Web Sample mockup 06:&nbsp; </span>
             <a href="../Samples/Sample%2006.aspx">../Sample 06.aspx</a>
             </br>
             </br>
-        </div>
+        
           
 
      
       
 
         <!-- HOME BUTTON -->
-        <div id="test"  class="fadethis" > 
+        <div id="home-button"  class="fadethis" > 
             <p class="home-button">        
                 <asp:ImageButton ID="ImageButton1" runat="server" Height="77px" Width="60px" ImageUrl="~/images/home.png"  PostBackUrl="~/projects.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
                 </br>
