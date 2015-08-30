@@ -9,7 +9,8 @@
         type="text/css">
             .fadethis 
             {
-                opacity:0;
+                /*Opacity should be 0 for this to work...set to 1 because it is not working with iphones*/
+                opacity:1;
             }
                .auto-style1 
         {

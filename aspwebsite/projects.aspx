@@ -48,7 +48,8 @@
         }  
         .fadeproject 
         {
-            opacity:0;max-width: 600px;margin: 0 auto;padding: 0 50px;
+            /*Opacity should be 0 for this to work...set to 1 because it is not working with iphones*/
+            opacity:1; max-width: 600px;margin: 0 auto;padding: 0 50px;
         }
 
 @-webkit-keyframes slideright

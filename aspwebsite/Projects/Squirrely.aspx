@@ -19,8 +19,9 @@
         {
             text-align: left;
             color: #999999;
-            font-size: large; 
-            opacity:0;
+            font-size: large;
+            /*Opacity should be 0 for this to work...set to 1 because it is not working with iphones*/ 
+            opacity:1;
         }
         .body-style
         {
