@@ -81,7 +81,7 @@ class="body-style">
    
      <form id="form1" runat="server" class="project_content">
         <div class="image-center">
-           <iframe width="800" height="720" src="//www.youtube.com/embed/4GvqCzxai7M?rel=0&autoplay=1&loop=0" frameborder="0" allowfullscreen></iframe>
+           <iframe width=100% height="720" src="//www.youtube.com/embed/4GvqCzxai7M?rel=0&autoplay=1&loop=0" frameborder="0" allowfullscreen></iframe>
          </div>
         <div id="test"  class="fadethis" > 
            

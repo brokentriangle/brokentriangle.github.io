@@ -349,7 +349,7 @@
                     CLOUD BASED DEVELOPMENT ENVIROMENTS 
 
                 </h1>
-                <p class="fromright">
+                <p class="fromleft">
                     <asp:ImageButton id="Cloud" runat="server" 
                         ImageUrl="~/images/DevelopingInCloud01.jpg"  
                         PostBackUrl="~/Projects/MobileDev.aspx"  
@@ -372,7 +372,7 @@
                     MY DIGITAL PLAYGROUND 
 
                 </h1>
-                <p class="fromleft">
+                <p class="fromright">
                     <asp:ImageButton id="Dev" runat="server" 
                         ImageUrl="~/images/playgroundf02.jpg"  
                         PostBackUrl="~/Projects/MyPlayground.aspx"  
