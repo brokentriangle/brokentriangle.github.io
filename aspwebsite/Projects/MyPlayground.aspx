@@ -44,40 +44,55 @@
             font-size: large;
             background-position: 50% 0%;
         }
-        #main { position: absolute; left: 50%; width: 720px; margin-left: -360px; height: 540px; top: -270px } 
-        #link1{color: rgb(85, 111, 225); text-decoration: underline; font-family: 'Century Gothic', Arial; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 28.7999992370605px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 0, 0);}
-        #text1{color: rgb(195, 195, 195); font-family: 'Century Gothic', Arial; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 28.7999992370605px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(0, 0, 0); clip: rect(auto, auto, auto, auto); top: auto;}
-        #text2{color: rgb(195, 195, 195); font-family: 'Century Gothic', Arial; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 28.7999992370605px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(0, 0, 0); clip: rect(auto, auto, auto, auto); top: auto;}
-        #text3{color: rgb(195, 195, 195); font-family: 'Century Gothic', Arial; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 28.7999992370605px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(0, 0, 0); clip: rect(auto, auto, auto, auto); top: auto;}
-        #textheader{color: rgb(195, 195, 195); font-family: 'Century Gothic', Arial; font-size: 32px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 28.7999992370605px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(0, 0, 0); clip: rect(auto, auto, auto, auto); top: auto;}
-       
+  .text1
+        {
+            color: rgb(195, 195, 195); 
+            font-family: 'Century Gothic', Arial; 
+            font-size: 18px; 
+            font-style: normal; 
+            font-variant: normal; 
+            font-weight: 100; 
+            letter-spacing: 1px; 
+            line-height: 28.7999992370605px; 
+            orphans: auto; 
+            text-align: left; 
+            text-indent: 0px; 
+            text-transform: none; 
+            white-space: normal; 
+            widows: 1; 
+            word-spacing: 0px; 
+            -webkit-text-stroke-width: 0px; 
+            float: none; 
+            background-color: rgb(0, 0, 0); 
+            clip: rect(auto, auto, auto, auto); 
+            top: auto;
+           
+}
           </style>
 
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script type="text/javascript">
-    $(function ()
+       <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function ()
     {
-        $(window).scroll(function ()
-        {
-           
-            $('.fadethis').each(function (i)
-            {
-                var bottom_reference = $(this).position().top + $(this).outerHeight();
-                var bottom_window = $(window).scrollTop() + $(window).height();
-                bottom_window = bottom_window + 200;
-                if (bottom_window > bottom_reference)
-                {
-                    $(this).animate({ 'opacity': '1' }, 500);
-                }
-            }); //end of fadethis
-        }); //end of window.scroll
-    }); //end of function
+    $('#fadethis').fadeIn(5000);
+    $('#fadethat').fadeIn(6000);
+    $('#fade1').fadeIn(1000);
+    $('#fade2').fadeIn(2000);
+    $('#fade3').fadeIn(3000);
+    $('#fade4').fadeIn(4000);
+    $('#fade5').fadeIn(5000);
+    $('#fade6').fadeIn(6000);
+    $('#fade7').fadeIn(7000);
+    $('#fade8').fadeIn(8000);
+    $('#fade9').fadeIn(9000);
+});
+</script>
 
-    </script>
 </head>
     
-<body class="body-style">
+<body class="body-style" >
     <form id="form1" runat="server" class="project_content">
+        <div class="text1"  id="fade1" style="display:none;">
         <!-- TOP PROJECT IMAGE -->
         <asp:Image id="image1" runat="server" ImageUrl="~/images/playgroundf02.jpg" ImageAlign="Middle" Width="100%"/>
         </br>
@@ -137,7 +152,7 @@
                 </br>
             </p>
         </div>
-
+        </div>
     </form>
 </body> 
 </html>

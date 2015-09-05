@@ -21,6 +21,7 @@
             text-align: center;
             color: #999999;
             font-size: 36px;
+             font-family: 'Century Gothic', Arial; 
         }
         .body-style
         {

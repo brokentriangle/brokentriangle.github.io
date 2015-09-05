@@ -44,34 +44,48 @@
             font-size: large;
             background-position: 50% 0%;
         }
-        #main { position: absolute; left: 50%; width: 720px; margin-left: -360px; height: 540px; top: -270px } 
-        #link1{color: rgb(85, 111, 225); text-decoration: underline; font-family: 'Century Gothic', Arial; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 28.7999992370605px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 0, 0);}
-        #text1{color: rgb(195, 195, 195); font-family: 'Century Gothic', Arial; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 28.7999992370605px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(0, 0, 0); clip: rect(auto, auto, auto, auto); top: auto;}
-        #text2{color: rgb(195, 195, 195); font-family: 'Century Gothic', Arial; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 28.7999992370605px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(0, 0, 0); clip: rect(auto, auto, auto, auto); top: auto;}
-        #text3{color: rgb(195, 195, 195); font-family: 'Century Gothic', Arial; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 28.7999992370605px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(0, 0, 0); clip: rect(auto, auto, auto, auto); top: auto;}
-    </style>
-
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script type="text/javascript">
-    $(function ()
-    {
-        $(window).scroll(function ()
+         .text1
         {
+            color: rgb(195, 195, 195); 
+            font-family: 'Century Gothic', Arial; 
+            font-size: 18px; 
+            font-style: normal; 
+            font-variant: normal; 
+            font-weight: 100; 
+            letter-spacing: 1px; 
+            line-height: 28.7999992370605px; 
+            orphans: auto; 
+            text-align: left; 
+            text-indent: 0px; 
+            text-transform: none; 
+            white-space: normal; 
+            widows: 1; 
+            word-spacing: 0px; 
+            -webkit-text-stroke-width: 0px; 
+            float: none; 
+            background-color: rgb(0, 0, 0); 
+            clip: rect(auto, auto, auto, auto); 
+            top: auto;
            
-            $('.fadethis').each(function (i)
-            {
-                var bottom_reference = $(this).position().top + $(this).outerHeight();
-                var bottom_window = $(window).scrollTop() + $(window).height();
-                bottom_window = bottom_window + 200;
-                if (bottom_window > bottom_reference)
-                {
-                    $(this).animate({ 'opacity': '1' }, 500);
-                }
-            }); //end of fadethis
-        }); //end of window.scroll
-    }); //end of function
-
-    </script>
+}
+     </style>
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function ()
+    {
+    $('#fadethis').fadeIn(5000);
+    $('#fadethat').fadeIn(6000);
+    $('#fade1').fadeIn(1000);
+    $('#fade2').fadeIn(2000);
+    $('#fade3').fadeIn(3000);
+    $('#fade4').fadeIn(4000);
+    $('#fade5').fadeIn(5000);
+    $('#fade6').fadeIn(6000);
+    $('#fade7').fadeIn(7000);
+    $('#fade8').fadeIn(8000);
+    $('#fade9').fadeIn(9000);
+});
+</script>
 </head>
     
 <body class="body-style">
@@ -82,7 +96,7 @@
         </br>
         
         <!-- FIRST FADE DIV --> 
-        <div id="test"  class="fadethis" > 
+        <div class="text1"  id="fade1" style="display:none;"  > 
             </br>
             </br>
             In love of all things mobile, we have decided to move to the cloud and try testing some of our development enviroments there. Since my primay OS is a Gentoo based Linux distro, I run various custom virtual dev enviroments using Virtualbox, but I feel that moving to the cloud might help us to free up more local resources while enjoying more flexability and scalability for the future. We are using CloudShare which allows for easy browser based accessibility from Linux without the need for a separate RDP client. The new website that we are working on in being developed in part using this cloud based dev environment. We are using Visual Studio Community Edition, and have tried Unity as well. However Unity's resource intensive graphics requirements will keep in on our local VM's for now. 
@@ -93,7 +107,7 @@
       
 
         <!-- HOME BUTTON -->
-        <div id="test"  class="fadethis" > 
+        <div class="text1"  id="fade2" style="display:none;"  > 
             <p class="home-button">        
                 <asp:ImageButton ID="ImageButton1" runat="server" Height="77px" Width="60px" ImageUrl="~/images/home.png"  PostBackUrl="~/projects.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
                 </br>

@@ -41,7 +41,7 @@
         {
             color: rgb(195, 195, 195); 
             font-family: 'Century Gothic', Arial; 
-            font-size: 14px; 
+            font-size: 18px; 
             font-style: normal; 
             font-variant: normal; 
             font-weight: 100; 
@@ -101,7 +101,7 @@ class="body-style">
            <iframe width=100% height="720" src="//www.youtube.com/embed/4GvqCzxai7M?rel=0&autoplay=1&loop=0" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="text1"  id="fade1" style="display:none;"   > 
-           
+                        </br>
                         </br>
                         </br>
                         </br>
@@ -147,20 +147,20 @@ class="body-style">
                         SUMMARY:
                         </br>
                         VirtualDeck Flashcards is a flashcard style study tool designed for students who need to study on the go. A flashcard style app with a clean minimalistic design. It allows you to organize your flashcards into categories (called virtual decks), as well as add images, audio, and import excel (or other spreadsheet software) files. No internet connection required to study your decks. You can type up your notes using Google docs following a basic format (see virtualdeckflashcards.com for details) and save your notes to your phone, and then study your notes on your way home from class, or heading to your next one. Image support available for quickly adding formulas or hard to type up info, just write it out, take a picture with your phone, and then add it to your card. New Random card order now supported!
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
+                    
+                        
             </div>
          
             <div class="text1"  id="fade3" style="display:none;"> 
+                        </br>
+                        </br>
+                        </br>
+                        </br>
                             <asp:Image id="image3" runat="server" ImageUrl="~/images/FeatureGraphic_1024.png" ImageAlign="Middle" Width="100%"/>
                         </br>
                         </br>
-                        </br>
-                        </br>
-                        </br>
+                     
+                        
 
             </div>
          
@@ -168,31 +168,25 @@ class="body-style">
                         ADDITIONAL DETAILS: 
                         </br>
                         I started writing this app while I was attending Concordia University. All I wanted was a simple flashcard app with a nice clean interface where I could type up my cards on my computer and then be able to study them while taking the bus and metro home. I also wanted to be able to edit them on my phone and make minor corrections to my notes without an internet connection. I checked everywhere but I could not find anything that did just that. So...how hard could it be right?...and so I set out to write an app that did just that. So here I am 6000 lines of finished code later, although I&#39;ve written and rewritten probably 3 times more, with an app that finally did what I wanted.
-                       </br>
-                        </br>
-                        Written in Java using Eclipse, I recently just transitioned everything over to Android Studio. Below is a small section of code from the app that I chose at random just to give you an idea into what it looks like behind the interface. This first section of code executes when you click on the up one dir button when you are browsing for a file. It takes the location that you are loading the file from and saves it, so the next time you try to load a file you will be in the last location where you previously loaded from.
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
+                      
+                     
                         
             </div>
 
-            <div class="text1"  id="fade5"  style="display:none;" > 
+            <div class="text1"  id="fade5"  style="display:none;" >
+                        </br>
+                        </br>
+                        </br>
+                        </br> 
                         <asp:Image id="image4" runat="server" ImageUrl="~/images/VD_code_intentloadfile_bw_1218.png" ImageAlign="Middle" Width="100%"/>
                         </br>
                         </br>
-                        </br>
-                        </br>
-                        </br>
+                            Written in Java using Eclipse, I recently just transitioned everything over to Android Studio. Above is a small section of code from the app that I chose at random just to give you an idea into what it looks like behind the interface. This first section of code executes when you click on the up one dir button when you are browsing for a file. It takes the location that you are loading the file from and saves it, so the next time you try to load a file you will be in the last location where you previously loaded from.
+                                              
             </div>
          
             <div class="text1"  id="fade6"  style="display:none;" > 
-                        </br>
                        
-                        Lots of work went into the file that the code below is taken from, as well as the code that it calls from other files. It is responsible for making sure that the file that you have chosen is readable by the app. After you select a file, a series of checks are run on that file to make sure that everything is good. I have also written in quite a bit of auto correct code, so it will check for small errors in the spreadsheet file and correct them for you if it can. When you save a spreadsheet file on your computer, you can actually save it with almost any delimiter that you want, and when you load the file in the app, it will replace the custom delimiters that you used with a standard one that the app uses.
-                        </br>
                         </br>
                         </br>
                         </br>
@@ -202,7 +196,7 @@ class="body-style">
                             <asp:Image id="image5" runat="server" ImageUrl="~/images/VD_code_intentloadvd_bw_1515.png" ImageAlign="Middle" Width="100%"/>
                         </br>
                         </br>
-                        </br>
+                             Lots of work went into the file that the code above is taken from, as well as the code that it calls from other files. It is responsible for making sure that the file that you have chosen is readable by the app. After you select a file, a series of checks are run on that file to make sure that everything is good. I have also written in quite a bit of auto correct code, so it will check for small errors in the spreadsheet file and correct them for you if it can. When you save a spreadsheet file on your computer, you can actually save it with almost any delimiter that you want, and when you load the file in the app, it will replace the custom delimiters that you used with a standard one that the app uses.
                         </br>
                         </br>
             </div>
