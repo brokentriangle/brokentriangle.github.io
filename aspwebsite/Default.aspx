@@ -11,7 +11,76 @@
         .auto-style1 
         {
             text-align: center;
-            color: #999999;
+            color:.body 
+    {
+        font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
+        -webkit-font-smoothing: antialiased;
+        background-color: #121212;
+    }
+
+    .container
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .top
+    {
+        padding: 50px 0;
+        background-color: #fff;
+        color: #121212;
+    }
+    
+    .content
+    {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 0 50px;
+        
+    }
+    
+    .title
+    {
+      font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+      font-size: 32px;
+      font-weight: 100;
+      letter-spacing: 10px;
+      margin: 50px 0;
+      text-align: left;
+       -webkit-animation: slidefrombottom 5s ease;
+        animation: slidefrombottom 5s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+
+    }
+    .text1
+    {
+        font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+        font-size: 21px;
+        font-weight: 100;
+        letter-spacing: 2px;
+        margin: 10px 0;
+        text-align: left;
+        
+    }
+    .text2
+    {
+        font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+        font-size: 16x;
+        font-weight: 100;
+        letter-spacing: 1px;
+        margin: 50px 0;
+        text-align: left;
+               -webkit-animation: slidefrombottom 5s ease;
+        animation: slidefrombottom 5s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+       
+    }
             font-size: large;
              background-position: 50% 0%;
         }

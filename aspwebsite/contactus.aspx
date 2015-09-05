@@ -53,11 +53,11 @@ $(document).ready(function() {
             </div>
         </div>
     
-        <div id="fadethat"class="tails" style="padding: 50px 0;padding-bottom: 200px;background-color: #fff;color: #121212; display:none;">
+        <div class="tails" style="padding: 50px 0;padding-bottom: 200px;background-color: #fff;color: #121212; ">
             <div style="width: 400px;margin: 0 auto;padding: 0 50px; ">
  
                 <!-- FIRST FADE DIV --> 
-                <div id="test"  class="form-left"> 
+                <div id="fadethat"  class="form-left" style="display:none";> 
                     <strong>PLEASE FILL OUT THE FORM TO CONTACT US</strong>
                 </br>
                 </br> 
