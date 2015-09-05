@@ -123,10 +123,10 @@
             SUMMARY:
             </br>
             </br>
-            Congrats! You are looking at our new website. We've switched over to using AWS and EC2 to host this website. We have tried to keep the design simple and more mobile friendly. We are making small changes and still cleaning things up, but are pretty happy with the results. We are using some CSS3 animations as well as JQuery for the effects. In addition we have started using cloud based dev enviroments and part of this website has been created using this dev enviroment.  
+            The website that you are currently viewing is our our new website. It is written using the ASP.NET framework, C# and JavaScript. The animations are accomplished using CSS3 @keyframes, and the fades are accomplished using JQuery.  We are hosting this website using AWS and EC2. We have tried to keep the design clean, simple, and mobile friendly. We are making small changes and still cleaning things up, but are pretty happy with the results. In addition, this website was partially developoed using cloud based development enviroments from a Linux client. Further details regarding our cloud development enviremonets is available on our Cloud Based Development page. A special thanks   
             </br>
             </br>
-            Our website was previousle hosted on Cargocollective, but as developers we feel the need to expand our skill set and look to the future. This is the .NET version of our original website, and it was written from the ground up. The new version of the website will no longer be be based on a template, but rather written from the ground up using the .NET framework and C#. We feel that this will give us both more control over the user experience, and also allow us a means of expressing our skills while looking to the future of coding and development with a more universal language for multi-platform development. A special thanks goes out to Manish Seebun who helped in the development of this project. We are using AWS and EC2 for hosting the site.
+            We decided we wanted to create this website because we wanted more control over the user experience, and also allow us a means of expressing our skills while looking to the future of coding and development with a more universal language for multi-platform development. A special thanks goes out to Manish Seebun who helped in the development of this project.
             </br>           
             </br>
             The full project is available on github if anyone is interested:
