@@ -159,7 +159,7 @@ class="body-style">
                       
             </br>
             </br>
-            After my monitor is turned on, the script executes this C++ program which loads my video wallpaper. So for KDE I've found that the best way to do this is using vlc and xwininfo. In the past I have encounter some problems where the xwininfo value of the desktop changes whenever you reboot, so the program I wrote here adjusts for that.}
+            After my monitor is turned on, the script executes this C++ program which loads my video wallpaper. So for KDE I've found that the best way to do this is using vlc and xwininfo. In the past I have encounter some problems where the xwininfo value of the desktop changes whenever you reboot, so the program I wrote here adjusts for that.
          
             </div>
             <div class="text1"  id="fade7" style="display:none;" > 
@@ -170,11 +170,11 @@ class="body-style">
                         <asp:Image id="image5" runat="server" ImageUrl="~/images/czhibis_code02.jpeg" ImageAlign="Middle" Width="100%"/>
                 </br>
                 </br>
-                After the initial on connect script is executed, the program switches over to an internal monitoring system that responds to basic voice commands. I've found that the best way to do this in Linux is using Google's voice API. Other forms of audio analysis are also possible, such as the above example, which is used for calculating the average voice frequency from an audio data file created from of a spoken word or phrase. }
+                After the initial on connect script is executed, the program switches over to an internal monitoring system that responds to basic voice commands. I've found that the best way to do this in Linux is using Google's voice API. Other forms of audio analysis are also possible, such as the above example, which is used for calculating the average voice frequency from an audio data file created from of a spoken word or phrase. 
                 </br>
                 </br>
             </div>
-            <div class="text1"  id="fade9" style="display:none;" > 
+            <div class="text1"  id="fade9" style="display:none"> 
             <p class="home-button">        
                       <asp:ImageButton ID="ImageButton1" runat="server" Height="77px" Width="60px" ImageUrl="~/images/home.png"  PostBackUrl="~/projects.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
                         
