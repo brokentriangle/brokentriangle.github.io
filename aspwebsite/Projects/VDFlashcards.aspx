@@ -201,12 +201,13 @@ class="body-style">
                         </br>
             </div>
             
-            <div class="text1"  id="fade8"  style="display:none;" > 
+            <div class="text1"  id="fade8"  style="display:none; width:100%;" > 
                         <p class="home-button">        
                         <asp:ImageButton ID="ImageButton1" runat="server" Height="77px" Width="60px" ImageUrl="~/images/home.png"  PostBackUrl="~/projects.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
+                        </br>
+                        </br>
                         </p>
-                        </br>
-                        </br>
+                        
             </div>
     </form>
 

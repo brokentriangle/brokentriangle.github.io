@@ -172,7 +172,8 @@
 
         <!-- HOME BUTTON -->
       
-            <p class="home-button">        
+            <p class="home-button" id="fade5" style="display:none; width:100%;" >     
+                <p class="home-button">    
                 <asp:ImageButton ID="ImageButton1" runat="server" Height="77px" Width="60px" ImageUrl="~/images/home.png"  PostBackUrl="~/projects.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
                 </br>
                 </br>
