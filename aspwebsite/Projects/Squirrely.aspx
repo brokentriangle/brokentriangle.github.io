@@ -102,6 +102,7 @@
             STATUS:
             </br> 
             In Development: Since March 2014.
+            </br>
             Projected Release Date: Fall 2015
         </br>
         </br>  
@@ -120,7 +121,7 @@
         </br>           
         </br>
         SUMMARY:
-        Squirrley is a 2D sidescroller game that uses Unity as the gaming engine. We have officially made it to Beta testing! We still seem to be on track for our release date this fall, and we are excited to bring you some new images. The scripts being used are written in C#, and right now we are currently tweaking and making small adjustments to the game to get the feel just right. Most of our updates will now be posted to our beta group which we will work closely with until the release date. If you have been invited to be a beta tester, then please click on the beta icon and follow the link to download the beta version of the game.  
+        Squirrley is a 2D sidescroller game that uses Unity as the gaming engine. We have officially made it to Beta testing! We still seem to be on track for our release date this fall, and we are excited to bring you some new images. The scripts being used are written in C#, and right now we are currently tweaking and making small adjustments to the game to get the feel just right. Most of our updates will now be posted to our beta group which we will work closely with until the release date. If you have been invited to be a beta tester, then please click on the Beta Testers link above to download the beta version of the game.  
         </br>           
         </br>
         </div>
