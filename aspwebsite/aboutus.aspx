@@ -38,7 +38,7 @@
     
     .top
     {
-        padding: 50px 0;
+        padding: 0px 0;
         background-color: black;
         color: #121212;
     }
