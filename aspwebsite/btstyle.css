@@ -26,8 +26,8 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 99%;
-        height: 99%;
+        width: 100%;
+        height: 100%;
     }
     
     .top
@@ -113,7 +113,7 @@
         .fadeproject 
         {
             /*Opacity should be 0 for this to work...set to 1 because it is not working with iphones*/
-            opacity:1; max-width: 600px;margin: 0 auto;padding: 0 50px;
+            opacity:1; max-width: 600px;margin: 0 auto;padding: 0 0px;
         }
 
 @-webkit-keyframes slideright
