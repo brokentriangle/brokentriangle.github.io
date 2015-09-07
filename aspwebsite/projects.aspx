@@ -6,248 +6,56 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Broken Triangle</title>
-    <style 
-        type="text/css">
-       .auto-style1 
-        {
-            text-align: center;
-            color: #999999;
-            font-size: large;
-             background-position: 50% 0%;
-        }
-         .auto-style2 
-        {
-            text-align: center;
-            color: #999999;
-            font-size: large;
-             background-position: 100% 0%;
-        }
-        
-         .project1-color 
-        {
-           padding: 10px 0;padding-bottom: 10px;background-color:#121212 ;color: #999999;
-        }
-        .project2-color
-        {
-            padding: 10px 0;padding-bottom: 10px;background-color: #000000 ;color: #fff;
-        }  
-        
-        .project1-title 
-        {
-          font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;
-        }  
-        
-        .project1-text 
-        {
-          font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;
-        } 
-       
-        .image-style1 
-        {
-            width:25%;
-        }  
-        .fadeproject 
-        {
-            /*Opacity should be 0 for this to work...set to 1 because it is not working with iphones*/
-            opacity:1; max-width: 600px;margin: 0 auto;padding: 0 50px;
-        }
-
-@-webkit-keyframes slideright
-{
-    0%
-    {
-        -webkit-transform: translateX(200px);
-        transform: translateX(200px);
-    }
-     
-  100%
-    {
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
-}
-@keyframes slideright
-{
-   
-   0%
-    {
-        -webkit-transform: translateX(200px);
-        transform: translateX(200px);
-    }
-     
-  100%
-    {
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
-  
- 
-}  
-@-webkit-keyframes slideleft
-{
-    0%
-    {
-        -webkit-transform: translateX(-200px);
-        transform: translateX(-200px);
-    }
-     
-  100%
-    {
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
-}
-
-
-@keyframes slideleft
-{
-   
-   0%
-    {
-        -webkit-transform: translateX(-200px);
-        transform: translateX(-200px);
-    }
-     
-  100%
-    {
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
-  
- 
-}  
-@-webkit-keyframes slidefrombottom
-{
-    0%
-    {
-        -webkit-transform: translateY(200px);
-        transform: translateY(200px);
-    }
-     
-  100%
-    {
-        -webkit-transform: translateY(0px);
-        transform: translateY(0px);
-    }
-}
-
-
-@keyframes slidefrombottom
-{
-   
-   0%
-    {
-        -webkit-transform: translateY(200px);
-        transform: translateY(200px);
-    }
-     
-  100%
-    {
-        -webkit-transform: translateY(0px);
-        transform: translateY(0px);
-    }
-  
- 
-}  
-.fromright
-{
-     text-align: center;
-            color: #999999;
-            font-size: large;
-            
-        -webkit-animation: slideright 3s ease;
-        animation: slideright 3s ease;
-        -webkit-animation-iteration-count: 1;
-        animation-iteration-count: 1;
-}  
-.fromleft
-{
-     text-align: center;
-            color: #999999;
-            font-size: large;
-            
-        -webkit-animation: slideleft 3s ease;
-        animation: slideleft 3s ease;
-        -webkit-animation-iteration-count: 1;
-        animation-iteration-count: 1;
-}  
-.frombottom
-{
-     text-align: center;
-            color: #999999;
-            font-size: large;
-           
-        -webkit-animation: slidefrombottom 3s ease;
-        animation: slidefrombottom 3s ease;
-        -webkit-animation-iteration-count: 1;
-        animation-iteration-count: 1;
-}  
-             
-    </style>
-
-    <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
-    
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script type="text/javascript">
-    $(function () {
-        $(window).scroll(function () {
-            $('.fadeproject').each(function (i) {
-                var bottom_of_object = $(this).position().top + $(this).outerHeight();
-                var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-                /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
-                bottom_of_window = bottom_of_window + 200;
-                if (bottom_of_window > bottom_of_object) {
-                    $(this).animate({ 'opacity': '1' }, 500);
-                }
-            });
-        });
-    });
-    $(document).ready(function () {
-        $('#fadethis').fadeIn(3000);
-    });
-
-
-
-</script>
+    <link rel="stylesheet" type="text/css" href="btstyle.css"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script  src="btJavaScript.js"></script>
 </head>
     
-<body
-   style="   background-color: black; 
-             background-repeat: no-repeat; 
-             background-position: center center;">
-      
+<body class="body">
     <form id="form1" runat="server">
-        <p class="auto-style1">
-           
-            <asp:Image id="BackgroundImage" runat="server" 
-                ImageUrl="~/images/brokentriangle.gif" 
-                ImageAlign="Middle"
-            />
-        </p>
-        <p class="auto-style1"  id="fadethis" style="display:none">
-
-            <asp:ImageButton ID="ImageButton5" runat="server" Height="50px" 
-                ImageUrl="~/images/AboutUs_100hv2.jpg"  
-                PostBackUrl="~/aboutus.aspx" 
-                OnClick="ImageButton1_Click" ImageAlign="Middle"
-            /> 
-            <asp:ImageButton ID="ImageButton6" runat="server" Height="50px" 
-                ImageUrl="~/images/projects_100hv2.jpg"  
-                PostBackUrl="~/projects.aspx" 
-                OnClick="ImageButton1_Click" 
-                ImageAlign="Middle"
-            /> 
-            <asp:ImageButton ID="ImageButton8" runat="server" Height="50px" 
-                ImageUrl="~/images/ContactUs_100hv2.jpg"  
-                PostBackUrl="~/contactus.aspx" 
-                OnClick="ImageButton1_Click" 
-                ImageAlign="Middle"
-            /> 
-        </p>
-        <p class="auto-style2">
-          &nbsp;  
-        </p>
+        <div class="container">
+            <div class="top" >
+                <div class="content">
+                    <p class="auto-style1">
+                        <asp:Image 
+                            id="BackgroundImage" 
+                            runat="server" 
+                            ImageUrl="~/images/brokentriangle.gif" 
+                            ImageAlign="Middle"
+                         />
+                    </p>
+                    <p class="auto-style1"  id="fadethis"  style="display:none" >
+                        <asp:ImageButton 
+                            ID="ImageButton7" 
+                            runat="server" 
+                            Height="50px" 
+                            ImageUrl="~/images/AboutUs_100hv2.jpg"  
+                            PostBackUrl="~/aboutus.aspx" 
+                            OnClick="ImageButton1_Click" 
+                            ImageAlign="Middle"
+                        /> 
+                        <asp:ImageButton 
+                            ID="ImageButton2" 
+                            runat="server" 
+                            Height="50px" 
+                            ImageUrl="~/images/projects_100hv2.jpg"  
+                            PostBackUrl="~/projects.aspx" 
+                            OnClick="ImageButton1_Click" 
+                            ImageAlign="Middle"
+                        /> 
+                        <asp:ImageButton 
+                            ID="ImageButton3" 
+                            runat="server" 
+                            Height="50px" 
+                            ImageUrl="~/images/ContactUs_100hv2.jpg"  
+                            PostBackUrl="~/contactus.aspx" 
+                            OnClick="ImageButton1_Click" 
+                            ImageAlign="Middle"
+                        /> 
+                    </p>
+              
+                </div> <!-- content -->
+            </div> <!-- top -->
          
         <div class="project1-color">
             <div class="fadeproject">
@@ -386,15 +194,8 @@
 
                 </h2>
             </div>
-         </div>
-
-
-
-
-
-     
+          </div>
+        </div> <!-- container -->
     </form>
-    
 </body> 
-
 </html>

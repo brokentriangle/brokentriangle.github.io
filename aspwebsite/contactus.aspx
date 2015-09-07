@@ -3,58 +3,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Broken Triangle</title>
-
-    <style 
-        type="text/css">
-            .fadethis 
-            {
-                /*Opacity should be 0 for this to work...set to 1 because it is not working with iphones*/
-                opacity:1;
-            }
-           .auto-style1 
-            {
-            text-align: center;
-            color: #999999;
-            font-size: large;
-            background-position: 100% 0%;
-            }
-    </style>
+    <meta charset="UTF-8"/>
+    <title>Broken Triangle</title>
+    <link rel="stylesheet" type="text/css" href="btstyle.css"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script  src="btJavaScript.js"></script>
 </head>
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-    $('#fadethis').fadeIn(5000);
-    $('#fadethat').fadeIn(6000);
-    $('#fadepam').fadeIn(6000);
-    $('#fadedaniel').fadeIn(6000);
-});
-</script>
-
-
-
-<body style="font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);-webkit-font-smoothing: antialiased;background-color: #121212;">
+<body class="body">
     <form id="form1" runat="server">
-     <div class="container" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;">
-      <div class="heads" style="padding: 0px 0;background-color: #000000;color: #fff;">
-            <div class="content" style="max-width: 600px;margin: 0 auto;padding: 0 0px;">
-            
-                <p class="auto-style1">
-                    <asp:Image id="BackgroundImage" runat="server" ImageUrl="~/images/brokentriangle.gif" ImageAlign="Middle"/>
-                </p>
-                <p class="auto-style1"  id="fadethis"  style="display:none" >
-                    <asp:ImageButton ID="ImageButton7" runat="server" Height="50px" ImageUrl="~/images/AboutUs_100hv2.jpg"  PostBackUrl="~/aboutus.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
-                    <asp:ImageButton ID="ImageButton1" runat="server" Height="50px" ImageUrl="~/images/projects_100hv2.jpg"  PostBackUrl="~/projects.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
-                    <asp:ImageButton ID="ImageButton2" runat="server" Height="50px" ImageUrl="~/images/ContactUs_100hv2.jpg"  PostBackUrl="~/contactus.aspx" OnClick="ImageButton1_Click" ImageAlign="Middle"/> 
-                </p>
-                 
-            </div>
-        </div>
-    
-        <div class="tails" style="padding: 50px 0;padding-bottom: 200px;background-color: #fff;color: #121212; ">
-            <div style="width: 400px;margin: 0 auto;padding: 0 50px; ">
+        <div class="container">
+            <div class="top" >
+                <div class="content">
+                    <p class="auto-style1">
+                        <asp:Image 
+                            id="BackgroundImage" 
+                            runat="server" 
+                            ImageUrl="~/images/brokentriangle.gif" 
+                            ImageAlign="Middle"
+                         />
+                    </p>
+                    <p class="auto-style1"  id="fadethis"  style="display:none" >
+                        <asp:ImageButton 
+                            ID="ImageButton7" 
+                            runat="server" 
+                            Height="50px" 
+                            ImageUrl="~/images/AboutUs_100hv2.jpg"  
+                            PostBackUrl="~/aboutus.aspx" 
+                            OnClick="ImageButton1_Click" 
+                            ImageAlign="Middle"
+                        /> 
+                        <asp:ImageButton 
+                            ID="ImageButton1" 
+                            runat="server" 
+                            Height="50px" 
+                            ImageUrl="~/images/projects_100hv2.jpg"  
+                            PostBackUrl="~/projects.aspx" 
+                            OnClick="ImageButton1_Click" 
+                            ImageAlign="Middle"
+                        /> 
+                        <asp:ImageButton 
+                            ID="ImageButton2" 
+                            runat="server" 
+                            Height="50px" 
+                            ImageUrl="~/images/ContactUs_100hv2.jpg"  
+                            PostBackUrl="~/contactus.aspx" 
+                            OnClick="ImageButton1_Click" 
+                            ImageAlign="Middle"
+                        /> 
+                    </p>
+              
+                </div> <!-- content -->
+            </div> <!-- top -->
+
+        <div class="bottom">
+            <div style="width: 475px;margin: 0 auto;padding: 0 0px; ">
  
                 <!-- FIRST FADE DIV --> 
                 <div id="fadethat"  class="form-left" style="display:none";> 

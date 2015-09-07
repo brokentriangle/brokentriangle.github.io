@@ -67,6 +67,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="aboutus.aspx" />
+    <Content Include="btJavaScript.js" />
+    <Content Include="btstyle.css" />
     <Content Include="contactus.aspx" />
     <Content Include="Projects\Czhibis.aspx" />
     <Content Include="Projects\Dotnet.aspx" />
