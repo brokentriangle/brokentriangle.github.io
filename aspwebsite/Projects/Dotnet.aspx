@@ -123,10 +123,7 @@
             SUMMARY:
             </br>
             </br>
-            The website that you are currently viewing is our our new website. It is written using the ASP.NET framework, C# and JavaScript. The animations are accomplished using CSS3 @keyframes, and the fades are accomplished using JQuery.  We are hosting this website using AWS and EC2. We have tried to keep the design clean, simple, and mobile friendly. We are making small changes and still cleaning things up, but are pretty happy with the results. In addition, this website was partially developoed using cloud based development enviroments from a Linux client. Further details regarding our cloud development enviremonets is available on our Cloud Based Development page. A special thanks   
-            </br>
-            </br>
-            We decided we wanted to create this website because we wanted more control over the user experience, and also allow us a means of expressing our skills while looking to the future of coding and development with a more universal language for multi-platform development. A special thanks goes out to Manish Seebun who helped in the development of this project.
+            The website that you are currently viewing is our our new website. It is written using the ASP.NET framework, C# and JavaScript. The animations are accomplished using CSS3 @keyframes, and the fades are accomplished using JQuery.  We are hosting this website using AWS and EC2. We have tried to keep the design clean, simple, and mobile friendly. We are making small changes and still cleaning things up, but are pretty happy with the results. In addition, this website was created in part using cloud based development enviroments and a Linux client. Further details regarding our cloud development enviremonets is available on our Cloud Based Development page. We created this website because we wanted more control over the user experience, and allow us a means of expressing our skills while looking to the future of coding and development with a more universal language for multi-platform development. A special thanks goes out to Manish Seebun who helped in the development of this project.
             </br>           
             </br>
             The full project is available on github if anyone is interested:
