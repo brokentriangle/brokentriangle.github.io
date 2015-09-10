@@ -155,7 +155,7 @@ class="body-style">
                 </br>
                 </br>
             </br>
-                <asp:Image id="image4" runat="server" ImageUrl="~/images/czhibis_code01.png" ImageAlign="Middle" Width="100%"/>
+                <asp:Image id="image4" runat="server" ImageUrl="~/images/czhibis_code02.jpeg" ImageAlign="Middle" Width="100%"/>
                       
             </br>
             </br>
@@ -167,7 +167,7 @@ class="body-style">
                 </br>
                 </br>
                 </br>
-                        <asp:Image id="image5" runat="server" ImageUrl="~/images/czhibis_code02.jpeg" ImageAlign="Middle" Width="100%"/>
+                        <asp:Image id="image5" runat="server" ImageUrl="~/images/czhibis_code03.jpeg" ImageAlign="Middle" Width="100%"/>
                 </br>
                 </br>
                 After the initial on connect script is executed, the program switches over to an internal monitoring system that responds to basic voice commands. I've found that the best way to do this in Linux is using Google's voice API. Other forms of audio analysis are also possible, such as the above example, which is used for calculating the average voice frequency from an audio data file created from of a spoken word or phrase. 
