@@ -146,7 +146,7 @@ class="body-style">
             <div class="text1"  id="fade2" style="display:none;" > 
                         SUMMARY:
                         </br>
-                        VirtualDeck Flashcards is a flashcard style study tool designed for students who need to study on the go. A flashcard style app with a clean minimalistic design. It allows you to organize your flashcards into categories (called virtual decks), as well as add images, audio, and import excel (or other spreadsheet software) files. No internet connection required to study your decks. You can type up your notes using Google docs following a basic format (see virtualdeckflashcards.com for details) and save your notes to your phone, and then study your notes on your way home from class, or heading to your next one. Image support available for quickly adding formulas or hard to type up info, just write it out, take a picture with your phone, and then add it to your card. New Random card order now supported!
+                        VirtualDeck Flashcards is a native Android flashcard style study tool designed for students who need to study on the go. It allows you to organize your flashcards into categories (called virtual decks), as well as add images, audio, and import excel (or other spreadsheet software) files. No internet connection required to study your decks. You can type up your notes using Google docs following a basic format (see virtualdeckflashcards.com for details) and save your notes to your phone, and then study on your way home from class, or heading to your next one. Image support is available for quickly adding formulas or hard to type up info. Just write it out on paper, take a picture with your phone, and then add it to your card. Random card order is now also supported.
                     
                         
             </div>
@@ -181,7 +181,7 @@ class="body-style">
                         <asp:Image id="image4" runat="server" ImageUrl="~/images/VD_code_intentloadfile_bw_1218.png" ImageAlign="Middle" Width="100%"/>
                         </br>
                         </br>
-                            Written in Java using Eclipse, I recently just transitioned everything over to Android Studio. Above is a small section of code from the app that I chose at random just to give you an idea into what it looks like behind the interface. This first section of code executes when you click on the up one dir button when you are browsing for a file. It takes the location that you are loading the file from and saves it, so the next time you try to load a file you will be in the last location where you previously loaded from.
+                            Written in Java using Eclipse with ADT, I recently just transitioned everything over to Android Studio. Above is a small section of code from the app that I chose at random just to give you an idea into what it looks like behind the interface. This first section of code executes when you click on the up one dir button when you are browsing for a file. It takes the location that you are loading the file from and saves it, so the next time you try to load a file you will be in the last location where you previously loaded from.
                                               
             </div>
          
