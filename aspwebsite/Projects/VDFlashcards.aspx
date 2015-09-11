@@ -122,7 +122,7 @@ class="body-style">
                         </br>
                         CONTRIBUTORS:
                         </br>
-                        Allen Smith (Visiual Design and Programming)
+                        Allen Smith (Visual Design and Programming)
                         </br>
                         Pamela Espinosa (Visual Design)
                         </br>
@@ -146,7 +146,7 @@ class="body-style">
             <div class="text1"  id="fade2" style="display:none;" > 
                         SUMMARY:
                         </br>
-                        VirtualDeck Flashcards is a native Android flashcard style study tool designed for students who need to study on the go. It allows you to organize your flashcards into categories (called virtual decks), as well as add images, audio, and import excel (or other spreadsheet software) files. No internet connection required to study your decks. You can type up your notes using Google docs following a basic format (see virtualdeckflashcards.com for details) and save your notes to your phone, and then study on your way home from class, or heading to your next one. Image support is available for quickly adding formulas or hard to type up info. Just write it out on paper, take a picture with your phone, and then add it to your card. Random card order is now also supported.
+                        VirtualDeck Flashcards is a native Android flashcard style study tool designed for students who need to study on the go. It allows you to organize your flashcards into categories (called virtual decks), as well as add images, audio, and import excel (or other spreadsheet software) files. No internet connection is required to study your decks. You can type up your notes using Google docs following a basic format (see virtualdeckflashcards.com for details) and save your notes to your phone, and then study on your way home from class, or heading to your next one. Image support is available for quickly adding formulas or hard to type up info. Just write it out on paper, take a picture with your phone, and then add it to your card. Random card order is now also supported.
                     
                         
             </div>
@@ -167,7 +167,7 @@ class="body-style">
             <div class="text1"  id="fade4"  style="display:none;"  > 
                         ADDITIONAL DETAILS: 
                         </br>
-                        I started writing this app while I was attending Concordia University. All I wanted was a simple flashcard app with a nice clean interface where I could type up my cards on my computer and then be able to study them while taking the bus and metro home. I also wanted to be able to edit them on my phone and make minor corrections to my notes without an internet connection. I checked everywhere but I could not find anything that did just that. So...how hard could it be right?...and so I set out to write an app that did just that. So here I am 6000 lines of finished code later, although I&#39;ve written and rewritten probably 3 times more, with an app that finally did what I wanted.
+                        I started writing this app while I was attending Concordia University. All I wanted was a simple flashcard app with a nice clean interface where I could type up my cards on my computer and then be able to study them while taking the bus and metro home. I also wanted to be able to edit them on my phone and make minor corrections to my notes without an internet connection. I checked everywhere but I could not find anything that did just that. So...how hard could it be right?. So here I am 6000 lines of finished code later, although I&#39;ve written and rewritten probably 3 times more, with an app that finally did what I wanted. I have keept the UI design extremely minimal to keep the focus on the content. The study mode has no buttons and uses gestures only for navigation.
                       
                      
                         
