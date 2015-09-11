@@ -101,20 +101,24 @@
             </br>
             </br>
             PROJECT:
+ </br>
             This Website
             </br>
             </br>
             PLATFORMS:
+ </br>
             Web
             </br>
             </br>
             STATUS:
+ </br>
             Released Aug 2015 (Still cleaning things up and making small adjustments)
              </br>
             Latest Update: Sep 2015
             </br>
             </br>
             CONTRIBUTORS:
+ </br>
             Allen Smith (Design and Programming)
             </br>
             Manish Seebun (Design and Programming)
@@ -122,7 +126,7 @@
             </br>
             SUMMARY:
             </br>
-            </br>
+         
             The website that you are currently viewing is our new website. It is written using the ASP.NET framework, C# and JavaScript. The animations are accomplished using CSS3 @keyframes, and the fades using JQuery.  We are hosting this website using AWS and their Elastic Compute Cloud (EC2). We have tried to keep the design clean, simple, and mobile friendly. We are making small changes and still cleaning things up, but are pretty happy with the results. We created this website because we wanted more control over the user experience, and a means of expressing our skills while looking to the future of coding and development with a more universal language for multi-platform development. In addition, this website was created in part using a combination of cloud based development enviroments and local virtual machine images using a Gentoo based Linux client. Further details regarding our cloud development enviremonet setup is available on our Cloud Based Development page.  A special thanks goes out to Manish Seebun who helped with the development of this project.
             </br>           
             </br>
