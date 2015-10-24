@@ -70,6 +70,7 @@
     <Content Include="btJavaScript.js" />
     <Content Include="btstyle.css" />
     <Content Include="contactus.aspx" />
+    <Content Include="Samples\VDPromoVideo.mp4" />
     <Content Include="Projects\Czhibis.aspx" />
     <Content Include="Projects\Dotnet.aspx" />
     <Content Include="Projects\MobileDev.aspx" />
@@ -226,6 +227,9 @@
     <Compile Include="Samples\Sample 07.aspx.designer.cs">
       <DependentUpon>Sample 07.aspx</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

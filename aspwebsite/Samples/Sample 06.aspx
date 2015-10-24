@@ -38,8 +38,15 @@
         <div class="content" style="max-width: 600px;margin: 0 auto;padding: 0 50px;">
           <h1 style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 10px;margin: 50px 0;text-align: center;"> SAMPLE PROJECT TITLE</h1>
           <h2 class="center" style="font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0;text-align: center;">
-             <asp:Image id="image1" runat="server" ImageUrl="~/images/Czhibis_logo_1280w.jpg" ImageAlign="Middle" Width="100%"/>
-              
+         
+               
+
+                <asp:Image id="image1" runat="server" ImageUrl="~/images/Czhibis_logo_1280w.jpg" ImageAlign="Middle" Width="100%"/>
+             </h2> 
+             <video controls="controls" id="videoPlayer">
+                <source src="VDPromoVideo.mp4" type="video/mp4" >
+
+            </video>
         </div>
       </div>
       <div class="tails" data-role="page" style="padding: 50px 0;padding-bottom: 200px;background-color: #0a0a0a;color: #fff;">
