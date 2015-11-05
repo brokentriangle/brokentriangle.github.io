@@ -98,9 +98,8 @@
         <!-- FIRST FADE DIV --> 
         <div class="text1"  id="fade1" style="display:none;"  > 
             </br>
-            </br>
-            In love of all things mobile, we have decided to move to the cloud and try testing some of our development enviroments there. Since my primay OS is a Gentoo based Linux distro, I run various custom virtual dev enviroments using Virtualbox, but I feel that moving to the cloud might help us to free up more local resources while enjoying more flexability and scalability for the future. We are using CloudShare which allows for easy browser based accessibility from Linux without the need for a separate RDP client. The new website that we are working on in being developed in part using this cloud based dev environment. We are using Visual Studio Community Edition, and have tried Unity as well. However Unity's resource intensive graphics requirements will keep in on our local VM's for now. 
-             </br>           
+            </br> 
+                In love of all things mobile, we have decided to move to the cloud and try testing some of our development enviroments there. Since my primay OS is a Gentoo based Linux distro, I run various custom virtual dev enviroments using Virtualbox, but I feel that moving to the cloud might help us to free up more local resources while enjoying more flexability and scalability for the future. We are using CloudShare which allows for easy browser based accessibility from Linux without the need for a separate RDP client. This website was developed in part using this cloud based dev environment. We developed it using Visual Studio, and we have tested other development enviroments as well, including Unity, however Unity's resource intensive graphics requirements will keep in on our local VM's for now.  </br>           
             </br>
         </div>
 
