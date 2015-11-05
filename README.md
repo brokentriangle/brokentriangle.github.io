@@ -1,12 +1,11 @@
 # brokentriangle.github.io
 Developed by: Allen Smith & Manish Seebun
 
-This website is now online, and can be viewed here: 
+This website is available online, and can be viewed here: 
 
-http://brokentriangle.ca
+http://brokentriangle.ca  (Official Website)
 
-We are a small development team, and this is the .NET version of our website. We are currently hosing this development project using Amazon Web Services and EC2. We have decided to make the code available for anyone who is interested. If you have any comments or suggestions, please feel free to contact us at brokentriangleca@gmail.com.   
+We are a small development team, and we decided to code our website using the ASP.NET framework. We are currently hosing this project using Amazon Web Services and their Elastic Compute Cloud (EC2). We have decided to make the code available for anyone who is interested. If you have any comments or suggestions, please feel free to contact us at brokentriangleca@gmail.com.   
 
 Thanks!
 
-www.brokentriangle.ca (Official Website)
