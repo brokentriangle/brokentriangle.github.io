@@ -113,14 +113,14 @@
         Daniel Smith (3D Artistry and Design)
         </br>           
         </br>
-         SUMMARY:
-         </br>
-         UPDATE: November 19, 2015
+              UPDATE: November 19, 2015
           </br>
-          We are pleased to announce that an initial release of the game will be available this weeked (Nov 21). We will be releasing the game to Canada and India first, in order to get some feedback and work out any additional issues that we encounter before our world release date later this year. Thank you for all who have helped out. If you have any questions or comments about the game, or ways that you think we can improve it, please use the contact us page and let us know.
+          We are pleased to announce that an initial release of the game will be available this weeked (Nov 21). We will be releasing the game to Canada and India first, in order to get some feedback and work out any additional issues that we encounter before our world release date later this year. Beta testing is now closed, thank you for all who have helped out. If you have any questions or comments about the game, or ways that you think we can improve it, please use the contact us page and let us know. 
         </br>           
         </br>
-        Squirrely is a 2D sidescroller that we created using the Unity Engine. You are a squirrel in search of the perfect hat, and you must time your jumps in order to make it to the next branch and find your perfect hat. We are using Google Ads in the free version, but for a small price you can purchase the ad free version. We have also integrated facebook score posting so that you can compete with your friends.
+            SUMMARY:
+         </br>
+        Squirrely is a 2D sidescroller that we created using the Unity Engine. You are a squirrel in search of the perfect hat, and you must time your jumps in order to make it to the next branch. We are using Google Ads in the free version, but for a small price you can purchase the ad free version. We have also integrated facebook score posting so that you can compete with your friends.
         </br>           
         </br>
         </div>
