@@ -113,16 +113,11 @@
         Daniel Smith (3D Artistry and Design)
         </br>           
         </br>
-            
-               
-       
-             <a href="https://play.google.com/apps/testing/bt.Squirrely/"; id="link1"; target="_blank">Beta Testers</a>
-           
-        </br>           
-        </br>
-        SUMMARY:
+         SUMMARY:
          </br>
-        Squirrley is a 2D sidescroller game that uses Unity as the gaming engine. We have officially made it to Beta testing! We still seem to be on track for our release date this fall, and we are excited to bring you some new images. The scripts being used are written in C#, and right now we are currently tweaking and making small adjustments to the game to get the feel just right. Most of our updates will now be posted to our beta group which we will work closely with until the release date. If you have been invited to be a beta tester, then please click on the Beta Testers link above to download the beta version of the game.  
+         UPDATE: November 19, 2015
+          </br>
+          Beta testing in now complete, and we have a production ready version of the game ready which we plan to release later this week. We are initially releasing the game to Canada and India before our world release later this year. Thank you for all who have helped out.
         </br>           
         </br>
         </div>
