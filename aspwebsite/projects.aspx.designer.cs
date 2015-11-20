@@ -58,15 +58,6 @@ namespace aspwebsite {
         protected global::System.Web.UI.WebControls.ImageButton ImageButton3;
         
         /// <summary>
-        /// VD control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton VD;
-        
-        /// <summary>
         /// ImageButton1 control.
         /// </summary>
         /// <remarks>
@@ -76,13 +67,13 @@ namespace aspwebsite {
         protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
         
         /// <summary>
-        /// Website control.
+        /// VD control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton Website;
+        protected global::System.Web.UI.WebControls.ImageButton VD;
         
         /// <summary>
         /// CZ control.
@@ -92,6 +83,15 @@ namespace aspwebsite {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton CZ;
+        
+        /// <summary>
+        /// Website control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton Website;
         
         /// <summary>
         /// Cloud control.

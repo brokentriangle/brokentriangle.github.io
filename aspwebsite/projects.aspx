@@ -58,7 +58,30 @@
             </div> <!-- top -->
          
         <div class="project1-color">
-            <div class="fadeproject">
+              <div class="fadeproject">
+                <h1 class="project1-title">
+                    
+                    SQUIRRELY 
+
+                </h1>
+                <p class="fromright">
+                    <asp:ImageButton ID="ImageButton1" runat="server" 
+                        ImageUrl="~/images/squirrely_1280.jpeg"  
+                        PostBackUrl="~/Projects/Squirrely.aspx"  
+                        OnClick="ImageButton2_Click" 
+                        ImageAlign="Middle" Width="90%"
+                    /> 
+                </p>
+                <h2 class="project1-text"> 
+                    
+                    A Game Created Using the Unity Game Engine (Available on Google Play)
+
+                </h2>
+            </div>
+        </div>
+         
+        <div class="project2-color">
+             <div class="fadeproject">
                 <h1 class="project1-title"> 
                   
                     VIRTUALDECK FLASHCARDS 
@@ -75,60 +98,15 @@
                 </p>
                 <h2 class="project1-text"> 
                     
-                    Flashcard Style Study App Available on Google Play
+                    Flashcard Style Study App (Available on Google Play)
 
                 </h2>
             </div>
-        </div>
          
-        <div class="project2-color">
-            <div class="fadeproject">
-                <h1 class="project1-title">
-                    
-                    SQUIRRELY 
-
-                </h1>
-                <p class="fromright">
-                    <asp:ImageButton ID="ImageButton1" runat="server" 
-                        ImageUrl="~/images/chalkLock_squirrely.jpg"  
-                        PostBackUrl="~/Projects/Squirrely.aspx"  
-                        OnClick="ImageButton2_Click" 
-                        ImageAlign="Middle" Width="90%"
-                    /> 
-                </p>
-                <h2 class="project1-text"> 
-                    
-                    A Game Created Using the Unity Game Engine (Coming This Fall)
-
-                </h2>
-            </div>
         </div>
 
         <div class="project1-color">
-            <div class="fadeproject">
-                <h1 class="project1-title"> 
-                    
-                    ABOUT THIS WEBSITE 
-
-                </h1>
-                <p class="fromleft">
-                    <asp:ImageButton id="Website" runat="server" 
-                        ImageUrl="~/images/dotnet01.jpg"    
-                        PostBackUrl="~/Projects/Dotnet.aspx"  
-                        OnClick="ImageButton2_Click" 
-                        ImageAlign="Middle" Width="90%"
-                    />       
-                </p>
-                <h2 class="project1-text">
-                    
-                    The ASP.NET Framework and our Cloud Server
-
-                </h2>
-            </div>
-        </div>
-
-        <div class="project2-color">
-            <div class="fadeproject">
+           <div class="fadeproject">
                 <h1 class="project1-title">
                      
                     PROJECT CZHIBIS 
@@ -145,6 +123,30 @@
                 <h2 class="project1-text"> 
                     
                     Home Automation Linux and Scripting Based
+
+                </h2>
+            </div>
+            
+        </div>
+
+        <div class="project2-color">
+             <div class="fadeproject">
+                <h1 class="project1-title"> 
+                    
+                    ABOUT THIS WEBSITE 
+
+                </h1>
+                <p class="fromleft">
+                    <asp:ImageButton id="Website" runat="server" 
+                        ImageUrl="~/images/dotnet01.jpg"    
+                        PostBackUrl="~/Projects/Dotnet.aspx"  
+                        OnClick="ImageButton2_Click" 
+                        ImageAlign="Middle" Width="90%"
+                    />       
+                </p>
+                <h2 class="project1-text">
+                    
+                    The ASP.NET Framework and our Cloud Server
 
                 </h2>
             </div>

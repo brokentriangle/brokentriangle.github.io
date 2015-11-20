@@ -82,7 +82,7 @@
 <body class="body-style">
     <form id="form1" runat="server" class="project_content" >
         <!-- TOP PROJECT IMAGE -->
-        <asp:Image id="image1" runat="server" ImageUrl="~/images/chalkLock_squirrely.jpg" ImageAlign="Middle" Width="100%"/>
+        <asp:Image id="image1" runat="server" ImageUrl="~/images/squirrely_1280.jpeg" ImageAlign="Middle" Width="100%"/>
         </br>
         </br>
         
@@ -112,10 +112,17 @@
         </br> 
         Daniel Smith (3D Artistry and Design)
         </br>           
-        </br>
+       
+                        </br>
+                        LINKS: 
+                        </br>
+                        Google Play (free edition):&nbsp; 
+                       <a href="http://play.google.com/store/apps/details?id=bt.Squirrely"; target="_blank">http://play.google.com/store/apps/details?id=vd.free</a>
+                            </br>
+                        </br>
               UPDATE: November 19, 2015
           </br>
-          We are pleased to announce that an initial release of the game will be available this weeked (Nov 21). We will be releasing the game to Canada and India first, in order to get some feedback and work out any additional issues that we encounter before our world release date later this year. Beta testing is now closed, thank you for all who have helped out. If you have any questions or comments about the game, or ways that you think we can improve it, please use the contact us page and let us know. 
+          We are pleased to announce that an initial release of the game will be available this weeked (Nov 21). We will be releasing the game to Canada and India first, in order to get some feedback and work out any additional issues that we encounter before our world release date in the near future. Beta testing is now closed, thank you for all who have helped out. If you have any questions or comments about the game, or ways that you think we can improve it, please use the contact us page and let us know. 
         </br>           
         </br>
             SUMMARY:
@@ -130,45 +137,15 @@
             </br>           
             </br>
            
-                       <asp:Image id="image3" runat="server" ImageUrl="~/images/squirrely02.gif" ImageAlign="Middle" Width="50%"/>
+                       <asp:Image id="image3" runat="server" ImageUrl="~/images/Squirrely_feature.png" ImageAlign="Middle" Width="100%"/>
           
             </br>           
             </br>
-                A quick look at the scene in Unity.
+               Enjoy!!
             </br>           
             </br>
         </div>
-        
-        <!-- FIRST FADE DIV --> 
-        <div class="text1"  id="fade3" style="display:none;"  > 
-            </br>           
-            </br>
-                        <asp:Image id="image2" runat="server" ImageUrl="~/images/squirrely01.png" ImageAlign="Middle"  Width="100%"/>
-         
-            </br>           
-            </br>
-       
-                A screenshot of the game. We just got Google Ads set up and were testing it out.
-            </br>           
-            </br>
-        </div>
-        
-        <!-- FIRST FADE DIV --> 
-        <div class="text1"  id="fade4" style="display:none;"  > 
-            </br>           
-            </br>
-      
-                    <asp:Image id="image4" runat="server" ImageUrl="~/images/squirrely03.png" ImageAlign="Middle" Width="100%"/>
-           
-            </br>           
-            </br>
-                A sample of some of the code that is running. This one creates an infinity looper on the tree heights, taking a random value from within a range where we know the jump heights are possible to make.
-            </br>           
-            </br>
-        </div>
-
-      
-
+   
         <!-- HOME BUTTON -->
       
             <p class="home-button" id="fade5" style="display:none; width:100%;" >     
