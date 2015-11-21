@@ -117,7 +117,7 @@
                         LINKS: 
                         </br>
                         Google Play (free edition):&nbsp; 
-                       <a href="http://play.google.com/store/apps/details?id=bt.Squirrely"; target="_blank">http://play.google.com/store/apps/details?id=vd.free</a>
+                       <a href="http://play.google.com/store/apps/details?id=bt.Squirrely"; target="_blank">http://play.google.com/store/apps/details?id=bt.Squirrely</a>
                             </br>
                         </br>
               UPDATE: November 19, 2015

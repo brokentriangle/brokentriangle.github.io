@@ -133,12 +133,12 @@
              <div class="fadeproject">
                 <h1 class="project1-title"> 
                     
-                    ABOUT THIS WEBSITE 
+                    ABOUT THIS WEBSITE AND OUR CLOUD BASED DEVEOPMENT ENVIROMENTS
 
                 </h1>
                 <p class="fromleft">
                     <asp:ImageButton id="Website" runat="server" 
-                        ImageUrl="~/images/dotnet01.jpg"    
+                        ImageUrl="~/images/brokentriangledeveloper.png"    
                         PostBackUrl="~/Projects/Dotnet.aspx"  
                         OnClick="ImageButton2_Click" 
                         ImageAlign="Middle" Width="90%"
@@ -151,52 +151,6 @@
                 </h2>
             </div>
          </div>
-
-         <div class="project1-color">
-            <div class="fadeproject">
-                <h1 class="project1-title">
-                     
-                    CLOUD BASED DEVELOPMENT ENVIROMENTS 
-
-                </h1>
-                <p class="fromleft">
-                    <asp:ImageButton id="Cloud" runat="server" 
-                        ImageUrl="~/images/DevelopingInCloud01.jpg"  
-                        PostBackUrl="~/Projects/MobileDev.aspx"  
-                        OnClick="ImageButton2_Click" 
-                        ImageAlign="Middle" Width="90%"
-                    />       
-                </p>
-                <h2 class="project1-text">
-                    
-                    How we are Developing Software in the Cloud
-
-                </h2>
-            </div>
-         </div>
-
-         <div class="project2-color">
-            <div class="fadeproject">
-                <h1 class="project1-title">
-                     
-                    MY DIGITAL PLAYGROUND 
-
-                </h1>
-                <p class="fromright">
-                    <asp:ImageButton id="Dev" runat="server" 
-                        ImageUrl="~/images/playgroundf02.jpg"  
-                        PostBackUrl="~/Projects/WorkingOnIt.aspx"  
-                        OnClick="ImageButton2_Click" 
-                        ImageAlign="Middle" Width="90%"
-                    />       
-                </p>
-                <h2 class="project1-text">
-                     
-                    Some of my Experiments and Works in Progress
-
-                </h2>
-            </div>
-          </div>
         </div> <!-- container -->
     </form>
 </body> 
