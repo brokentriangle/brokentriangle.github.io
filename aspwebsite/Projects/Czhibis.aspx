@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Czhibis.aspx.cs" Inherits="aspwebsite.Czhibis" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Czhibis.aspx.cs" Inherits="aspwebsite.Czhibis" %>
 
 <!DOCTYPE html>
 
@@ -102,42 +102,27 @@ class="body-style">
          <div class="text1"  id="fade1" style="display:none;" > 
             </br>
             </br>
-            PROJECT:
-            </br>
-            Project CZHIBIS (Pronounced: sigh-bis)
+            PROJECT: Project CZHIBIS (Pronounced: sigh-bis)
             </br>
             </br>
-            PLATFORMS
-            </br>
-            Linux Desktop
+            PLATFORMS: Linux Desktop
             </br>
             </br>
-            STATUS:
-           </br>
-            Private Project
-            </br>
-             Latest Update: Sep 2015
+            STATUS: Private project, last updated April 2016
 
             </br>
             </br>
-            CONTRIBUTORS:
-            </br>
-            Allen Smith (Design and Programming)
+            CONTRIBUTORS: Allen Smith (Design and Programming)
             </br>
             </br>
            
-            SUMMARY:
-            </br>
-                       What if your home could tell you apart from someone else...what if it played YOUR music when you came home, turned YOUR monitor on, and adjusted the lights to the way YOU wanted...What if it could tell when you left...tell when someone else arrived...What if no one was at home but your home was listening for you and could notified you if it heard something. This is Project Czhibis, a combination of scripts and C++ coding heavily integrated with a Gentoo based Linux distribution. User identification is accomplished by isolating the mac addresses of the individuals phone connected to the private network, and then running customized scripts for those individuals based on connection status.
+            SUMMARY: What if your home could tell you apart from someone else...what if it played YOUR music when you came home, turned YOUR monitor on, and adjusted the lights to the way YOU wanted...What if it could tell when you left...tell when someone else arrived...What if no one was at home but your home was listening for you and could notified you if it heard something. This is Project Czhibis, a combination of scripts and C++ coding heavily integrated with a Gentoo based Linux distribution. User identification is accomplished by isolating the mac addresses of the individuals phone connected to the private network, and then running customized scripts for those individuals based on connection status.
            
                        </div>
            <div class="text1"  id="fade2" style="display:none;" > 
                 </br>
                 </br>
-                ADDITIONAL DETAILS: 
-                </br>
-                   
-                One day I came home late from work after a long day. I opened the door and the lights were all off, there was no music playing, and the place just felt, unwelcoming. The more I thought about it, the more I disliked it. When I come home, my home should greet me...and so project Czhibis began.
+                ADDITIONAL DETAILS: One day I came home late from work after a long day. I opened the door and the lights were all off, there was no music playing, and the place just felt, unwelcoming. The more I thought about it, the more I disliked it. When I come home, my home should greet me...and so project Czhibis began.
                 What I wanted to create was a more personalized home experience where the interaction between me and my environment happened seamlessly. I didn't want to have to push a button, or flip a switch...It should just know.  I wanted music playing when I got home. I wanted my monitor to turn on by itself with a video wallpaper running only while I was at home. I wanted the lights adjusted to the way i wanted them. I wanted to backup my data only when I wasn't there. I wanted it to do the same thing for my wife, but customized to her, with her music, monitor, lights, etc. But how would I do this...motion detector...video camera...No. One thing I always have with me is my smartphone, so I wanted to turn that into a key.  So as soon as that specific phone connects to the home network, the environment responds.
              
             </div>
