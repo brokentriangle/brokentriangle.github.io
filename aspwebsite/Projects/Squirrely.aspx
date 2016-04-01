@@ -82,10 +82,10 @@
 <body class="body-style">
     <form id="form1" runat="server" class="project_content" >
         <!-- TOP PROJECT IMAGE -->
-        <asp:Image id="image1" runat="server" ImageUrl="~/images/squirrely_1280.jpeg" ImageAlign="Middle" Width="100%"/>
-        </br>
-        </br>
-        
+            <div class="image-center">
+           <iframe width=100% height="720" src="//www.youtube.com/embed/BPHgqME-FwI?rel=0&showinfo=0&autoplay=1&loop=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+       
         <!-- FIRST FADE DIV --> 
         <div class="text1"  id="fade1" style="display:none;"  > 
             </br>
@@ -116,7 +116,7 @@
             SUMMARY: Squirrely is a 2D sidescroller that we created using the Unity Engine. You are a squirrel in search of the perfect hat, and you must time your jumps in order to make it to the next branch. We are using Google Ads in the free version, but for a small price you can purchase the ad free version. We have also integrated facebook score posting so that you can compete with your friends.
         </br>           
         </br>
-        </div>
+
         
         <!-- FIRST FADE DIV --> 
         <div class="text1"  id="fade2" style="display:none;"  > 
@@ -127,11 +127,18 @@
           
             </br>           
             </br>
+             <img src="http://payload438.cargocollective.com/1/3/127923/11061717/startGIF.gif" width=50% height="270" width_o="480" height_o="270" src_o="http://payload438.cargocollective.com/1/3/127923/11061717/startGIF.gif" data-mid="59622864" border="0" align="left" data-title="960 (480) — 480 × 270"/>
+             <img src="http://payload438.cargocollective.com/1/3/127923/11061717/dieGIF.gif" width=50% height="270" width_o="480" height_o="270" src_o="http://payload438.cargocollective.com/1/3/127923/11061717/dieGIF.gif" data-mid="59622858" border="0" align="right" data-title="960 (480) — 480 × 270"/>
+        
+            </br>           
+           </br>
+              </br>           
+           </br>
                Enjoy!!
             </br>           
             </br>
         </div>
-   
+
         <!-- HOME BUTTON -->
       
             <p class="home-button" id="fade5" style="display:none; width:100%;" >     
