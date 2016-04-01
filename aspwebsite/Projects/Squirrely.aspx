@@ -90,44 +90,32 @@
         <div class="text1"  id="fade1" style="display:none;"  > 
             </br>
             </br>
-            PROJECT:
+            PROJECT: SQUIRRELY
             </br> 
-            SQUIRRELY
-            </br> 
-            PLATFORMS:
-            </br> 
-            Android and iOS
+            PLATFORMS: Android and iOS
             </br> 
             </br> 
-            STATUS:
-            </br> 
-            In Development: Since March 2014.
-            </br>
-            Projected Release Date: Fall 2015
+            STATUS: Android (Canada and India) Released (Nov 21, 2015), World release coming mid April 2016
+            iOS World release coming mid April 2016              
         </br>
         </br>  
-        CONTRIBUTORS:
-        </br> 
-        Allen Smith (Design and Programming)
-        </br> 
+        CONTRIBUTORS: Allen Smith (Design and Programming)
         Daniel Smith (3D Artistry and Design)
         </br>           
        
                         </br>
-                        LINKS: 
-                        </br>
-                        Google Play (free edition):&nbsp; 
+                        LINKS: Google Play (Free Edition):&nbsp; 
                        <a href="http://play.google.com/store/apps/details?id=bt.Squirrely"; target="_blank">http://play.google.com/store/apps/details?id=bt.Squirrely</a>
-                            </br>
+                        Google Play (paid edition):&nbsp; 
+                       <a href="http://play.google.com/store/apps/details?id=bt.Squirrely.adfree"; target="_blank">http://play.google.com/store/apps/details?id=bt.Squirrely.adfree</a>
                         </br>
-              UPDATE: November 19, 2015
+                        </br>
+              UPDATE: April 1st, 2016
           </br>
-          We are pleased to announce that an initial release of the game will be available this weeked (Nov 21). We will be releasing the game to Canada and India first, in order to get some feedback and work out any additional issues that we encounter before our world release date in the near future. Beta testing is now closed, thank you for all who have helped out. If you have any questions or comments about the game, or ways that you think we can improve it, please use the contact us page and let us know. 
+          We will be anouncing the iOS release of Squirrely this month, as well as the world release for our Android version. 
         </br>           
         </br>
-            SUMMARY:
-         </br>
-        Squirrely is a 2D sidescroller that we created using the Unity Engine. You are a squirrel in search of the perfect hat, and you must time your jumps in order to make it to the next branch. We are using Google Ads in the free version, but for a small price you can purchase the ad free version. We have also integrated facebook score posting so that you can compete with your friends.
+            SUMMARY: Squirrely is a 2D sidescroller that we created using the Unity Engine. You are a squirrel in search of the perfect hat, and you must time your jumps in order to make it to the next branch. We are using Google Ads in the free version, but for a small price you can purchase the ad free version. We have also integrated facebook score posting so that you can compete with your friends.
         </br>           
         </br>
         </div>
