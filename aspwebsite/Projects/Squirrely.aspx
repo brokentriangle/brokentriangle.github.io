@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Squirrely.aspx.cs" Inherits="aspwebsite.Projects.Squirrely" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Squirrely.aspx.cs" Inherits="aspwebsite.Projects.Squirrely" %>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -92,27 +92,25 @@
             </br>
             PROJECT: SQUIRRELY
             </br> 
+            </br> 
             PLATFORMS: Android and iOS
             </br> 
             </br> 
-            STATUS: Android (Canada and India) Released (Nov 21, 2015), World release coming mid April 2016
-            iOS World release coming mid April 2016              
+            STATUS: Android (Canada and India), released (Nov 21, 2015). World release coming mid April 2016. iOS world release coming mid April 2016              
         </br>
         </br>  
-        CONTRIBUTORS: Allen Smith (Design and Programming)
-        Daniel Smith (3D Artistry and Design)
+        CONTRIBUTORS: Allen Smith (Design and Programming), Daniel Smith (3D Artistry and Design)
         </br>           
        
                         </br>
                         LINKS: Google Play (Free Edition):&nbsp; 
                        <a href="http://play.google.com/store/apps/details?id=bt.Squirrely"; target="_blank">http://play.google.com/store/apps/details?id=bt.Squirrely</a>
-                        Google Play (paid edition):&nbsp; 
+                        </br>
+                       Google Play (Paid Edition):&nbsp; 
                        <a href="http://play.google.com/store/apps/details?id=bt.Squirrely.adfree"; target="_blank">http://play.google.com/store/apps/details?id=bt.Squirrely.adfree</a>
                         </br>
                         </br>
-              UPDATE: April 1st, 2016
-          </br>
-          We will be anouncing the iOS release of Squirrely this month, as well as the world release for our Android version. 
+              UPDATE: April 1st, 2016: We will be anouncing the iOS release of Squirrely this month, as well as the world release for our Android version. 
         </br>           
         </br>
             SUMMARY: Squirrely is a 2D sidescroller that we created using the Unity Engine. You are a squirrel in search of the perfect hat, and you must time your jumps in order to make it to the next branch. We are using Google Ads in the free version, but for a small price you can purchase the ad free version. We have also integrated facebook score posting so that you can compete with your friends.
