@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="aboutus.aspx.cs" Inherits="aspwebsite.aboutus" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="aboutus.aspx.cs" Inherits="aspwebsite.aboutus" %>
 <!DOCTYPE html>
 <html>
 
@@ -114,7 +114,7 @@
                           </p>
                           <h2 class="text1"> 
                               
-                            Animator and Digital Artist (Toronto)
+                            Animator and Digital Artist (Vancover)
                               
                             </br>
                             </br>
