@@ -114,7 +114,7 @@
                           </p>
                           <h2 class="text1"> 
                               
-                            Animator and Digital Artist (Vancover)
+                            Animator and Digital Artist (Vancouver)
                               
                             </br>
                             </br>
