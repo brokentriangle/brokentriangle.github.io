@@ -96,7 +96,7 @@
             PLATFORMS: Android and iOS
             </br> 
             </br> 
-            STATUS: Android (Canada and India), released (Nov 21, 2015). World release coming mid April 2016. iOS world release coming mid April 2016              
+            STATUS: Released and available on iOS and Android              
         </br>
         </br>  
         CONTRIBUTORS: Allen Smith (Design and Programming), Daniel Smith (3D Artistry and Design)
@@ -110,7 +110,17 @@
                        <a href="http://play.google.com/store/apps/details?id=bt.Squirrely.adfree"; target="_blank">http://play.google.com/store/apps/details?id=bt.Squirrely.adfree</a>
                         </br>
                         </br>
-              UPDATE: April 1st, 2016: We will be anouncing the iOS release of Squirrely this month, as well as the world release for our Android version. 
+                       Apple Store (Free Edition):&nbsp; 
+                       <a href="https://itunes.apple.com/us/app/squirrely-free-edition/id1097323290?ls=1&mt=8"; target="_blank">https://itunes.apple.com/us/app/squirrely-free-edition/id1097323290?ls=1&mt=8</a>
+                       </br>
+                       Apple Store (Paid Edition):&nbsp; 
+                       <a href="https://itunes.apple.com/us/app/squirrely/id1095481268?ls=1&mt=8"; target="_blank">https://itunes.apple.com/us/app/squirrely/id1095481268?ls=1&mt=8</a>
+                       </br>
+                       </br>
+                       UPDATE: April 21, 2016: Both the free and paid editions of our app are now available on iOS. Our app is only available in Canada at the moment, but we will be doing our world release shortly. 
+                       </br>
+                       </br>
+                       UPDATE: April 1st, 2016: We will be anouncing the iOS release of Squirrely this month, as well as the world release for our Android version. 
         </br>           
         </br>
             SUMMARY: Squirrely is a 2D sidescroller that we created using the Unity Engine. You are a squirrel in search of the perfect hat, and you must time your jumps in order to make it to the next branch. We are using Google Ads in the free version, but for a small price you can purchase the ad free version. We have also integrated facebook score posting so that you can compete with your friends.
