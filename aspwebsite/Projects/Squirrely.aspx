@@ -117,6 +117,9 @@
                        <a href="https://itunes.apple.com/us/app/squirrely/id1095481268?ls=1&mt=8"; target="_blank">https://itunes.apple.com/us/app/squirrely/id1095481268?ls=1&mt=8</a>
                        </br>
                        </br>
+                       UPDATE: April 26, 2016: Today we are pleased to announce that our game is now available around the world on both iOS and Android. 
+                       </br>
+                       </br>
                        UPDATE: April 21, 2016: Both the free and paid editions of our app are now available on iOS. Our app is only available in Canada at the moment, but we will be doing our world release shortly. 
                        </br>
                        </br>
