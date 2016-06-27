@@ -1,4 +1,4 @@
-﻿    <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="projects.aspx.cs" Inherits="aspwebsite.projects" %>
+    <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="projects.aspx.cs" Inherits="aspwebsite.projects" %>
 
 
 <!DOCTYPE html>
@@ -74,7 +74,7 @@
                 </p>
                 <h2 class="project1-text"> 
                     
-                    A Game Created Using the Unity Game Engine (Available on Google Play)
+                    A Game Created Using the Unity Game Engine (Available on iOS and Android)
 
                 </h2>
             </div>
@@ -98,7 +98,7 @@
                 </p>
                 <h2 class="project1-text"> 
                     
-                    Flashcard Style Study App (Available on Google Play)
+                    A Native Android Flashcard Style Study App (Available only on Android)
 
                 </h2>
             </div>
