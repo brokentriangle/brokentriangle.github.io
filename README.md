@@ -1,4 +1,4 @@
-# brokentriangle.github.io
+# brokentriangle
 Developed by: Allen Smith & Manish Seebun
 
 This website is available online, and can be viewed here: 
