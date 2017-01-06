@@ -1,99 +1,77 @@
-    <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="projects.aspx.cs" Inherits="aspwebsite.projects" %>
-
-
 <!DOCTYPE html>
+<!--
+Author: Allen Smith
+Date of Origin: Jan 2017
+-->
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title>Broken Triangle</title>
+<html>
+<head>
+    <title>Pojects</title>
     <link rel="stylesheet" type="text/css" href="btstyle.css"/>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script  src="btJavaScript.js"></script>
 </head>
     
 <body class="body">
-    <form id="form1" runat="server">
+    <form id="form1">
         <div class="container">
             <div class="top" >
                 <div class="content">
-                     <p class="auto-style1">
+                    <p class="auto-style1">
                         <img src="images/brokentriangle.gif" alt="broken Triangle"/>
                     </p>
-                    <p class="auto-style1"  id="fadethis"  style="display:none" >
-                        
-                        <a href="aboutUs.html"><img src="images/AboutUs_100hv2.jpg" height="50px" alt="About Us"/></a>
-                       
-                        <a href="projects.html"><img src="images/projects_100hv2.jpg" height="50px" alt="Projects"/></a>
-                       
-                        <a href="contactUs.html"><img src="images/ContactUs_100hv2.jpg" height="50px" alt="Contact Us"/></a>
-                                        
-                    </p>
-              
+                    <p class="auto-style1"  id="fadethis"  style="display:none">
+                        <a href="aboutus.html"><img src="images/aboutus.jpg" height="50px" alt="About Us"/></a>
+                        <a href="projects.html"><img src="images/projects.jpg" height="50px" alt="Projects"/></a>
+                        <a href="contactus.html"><img src="images/contactus.jpg" height="50px" alt="Contact Us"/></a>
+                    </p> 
                 </div> <!-- content -->
-            </div> <!-- top -->
-                                               
-                 
-
-
+            </div> <!--top-->
         <div class="project1-color">
-              <div class="fadeproject">
-                
-                                               
-                 <h1 class="project1-title">
-                    
+            <div class="fadeproject">
+                <h1 class="project1-title">
+             
                     SQUIRRELY 
 
                 </h1>
                 <p class="fromright">
                     <a href="http://www.youtube.com/watch?v=BPHgqME-FwI"><img src="images/Squirrely.gif" width="90%" alt="Squirrely" /></a>
-
                 </p>
-               <div align="center" class="project1-text">
+                <div align="center" class="project1-text">
                     <br>
                     <a href="http://play.google.com/store/apps/details?id=bt.Squirrely&hl=en"><img src="images/logoAndroid.png" width="30%" alt="Squirrely" /></a>
-
                     <a href="http://itunes.apple.com/us/app/squirrely-free-edition/id1097323290?mt=8"><img src="images/logoiTunes.png" width="30%" alt="Squirrely" /></a>
                     <br>
-                   
                 </div>
-               
-
                 <h2 class="project1-text">
                   
                     A Game Created Using the Unity Game Engine
 
                 </h2>
-                
             </div>
         </div>
          
         <div class="project2-color">
-             <div class="fadeproject">
+            <div class="fadeproject">
                 <h1 class="project1-title"> 
                   
                     VIRTUALDECK FLASHCARDS 
 
                 </h1>
-                
                 <p class="fromleft">
-                     
-                     <a href="http://www.youtube.com/watch?v=4GvqCzxai7M"><img src="images/VirtualDeckFlashcards.gif" width="90%" alt="Squirrely" /></a>
-                      
+                    <a href="http://www.youtube.com/watch?v=4GvqCzxai7M"><img src="images/VirtualDeckFlashcards.gif" width="90%" alt="Squirrely" /></a>
                 </p>
                 <div align="center">
                     <br>
                     <a href="http://play.google.com/store/apps/details?id=vd.free&hl=en"><img src="images/logoAndroid.png" width="30%" alt="Squirrely" /></a>
                 </div>
-
                 <h2 class="project1-text"> 
                     
                     A Native Android Flashcard Style Study App (Available only on Android)
 
                 </h2>
             </div>
-         
         </div>
-
         <div class="project1-color">
              <div class="fadeproject">
                 <h1 class="project1-title"> 
@@ -117,6 +95,6 @@
             </div>
          </div>
         </div> <!-- container -->
-    </form>
+  
 </body> 
 </html>
