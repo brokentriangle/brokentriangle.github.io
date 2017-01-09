@@ -10,12 +10,8 @@
     }
     .logo 
     {  
-        text-align: center;
-        color: #999999;
-        font-size: large;
-        background-position: 100% 0%;
-        width: 100%;  
-        height: auto; 
+        width: auto;  
+  
     }
     .auto-style1 
     {
