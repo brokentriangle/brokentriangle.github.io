@@ -1,4 +1,13 @@
 ﻿
+.buttons 
+    {  
+        text-align: center;
+        color: #999999;
+        font-size: large;
+        background-position: 100% 0%;
+        width: 25%;  
+        height: auto; 
+    }
     .auto-style1 
     {
         text-align: center;
