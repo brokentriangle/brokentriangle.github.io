@@ -2,14 +2,15 @@
 .buttons 
     {  
         text-align: center;
-        width: 25%;  
+        width: 25%;
+        min-width: 150px;  
 
     }
     .logo 
     {  
         text-align: center;
-        width: 70%;  
-
+        width: 100%;  
+        max-width: 600px;
     }
     .auto-style1 
     {
