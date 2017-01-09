@@ -1,20 +1,18 @@
 ﻿
-    .auto-style1 
-    {
-        text-align: center;
-        color: #999999;
-        font-size: large;
-        background-position: 100% 0%;
-    }
-    
-    .auto-style2 
-    {
-        text-align: center;
-        color: #999999;
-        font-size: large;
-        background-position: 100% 0%;
-    }
-    
+     .auto-style1 
+        {
+            text-align: center;
+            color: #999999;
+            font-size: large;
+            background-position: 100% 0%;
+        }
+       .auto-style2 
+        {
+            text-align: center;
+            color: #999999;
+            font-size: large;
+             background-position: 100% 0%;
+        }
     .body 
     {
         font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -38,8 +36,7 @@
         background-color: black;
         color: #121212;
     }
-    .bottom
-    {
+    .bottom{
         padding: 50px 0;
         padding-bottom: 200px;
         background-color: #fff;
@@ -70,7 +67,6 @@
       text-align: center;
     
     }
-    
     .text1
     {
         font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
@@ -81,7 +77,6 @@
         text-align: center;
         
     }
-    
     .text2
     {
         font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
@@ -90,69 +85,68 @@
         letter-spacing: 1px;
         margin: 50px 0;
         text-align: left;
-    }
+   }
 
-    .project1-color 
-    {
-        padding: 10px 0;padding-bottom: 10px;background-color:#121212 ;color: #999999;
-    }
-    
-    .project2-color
-    {
-        padding: 10px 0;padding-bottom: 10px;background-color: #000000 ;color: #fff;
-    }  
-    
-    .project1-title 
-    {
-        font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;
-    }  
-    
-    .project1-text 
-    {
-        font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;
-    } 
-    
-    .image-style1 
-    {
-        width:25%;
-    }  
-    
-    .fadeproject 
-    {
-        /*Opacity should be 0 for this to work...set to 1 because it is not working with iphones*/
-        opacity:1; max-width: 600px;margin: 0 auto;padding: 0 0px;
-    }
+             .project1-color 
+        {
+           padding: 10px 0;padding-bottom: 10px;background-color:#121212 ;color: #999999;
+        }
+        .project2-color
+        {
+            padding: 10px 0;padding-bottom: 10px;background-color: #000000 ;color: #fff;
+        }  
+        
+        .project1-title 
+        {
+          font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 31px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;
+        }  
+        
+        .project1-text 
+        {
+          font-family: Futura, 'Trebuchet MS', Arial, sans-serif;font-size: 21px;font-weight: 100;letter-spacing: 2px;margin: 40px 0; text-align: center;
+        } 
+       
+        .image-style1 
+        {
+            width:25%;
+        }  
+        .fadeproject 
+        {
+            /*Opacity should be 0 for this to work...set to 1 because it is not working with iphones*/
+            opacity:1; max-width: 600px;margin: 0 auto;padding: 0 0px;
+        }
 
-    @-webkit-keyframes slideright
+@-webkit-keyframes slideright
+{
+    0%
     {
-        0%
-            {
-                -webkit-transform: translateX(200px);
-                transform: translateX(200px);
-            }
-        100%
-            {
-                -webkit-transform: translateX(0px);
-                transform: translateX(0px);
-            }
+        -webkit-transform: translateX(200px);
+        transform: translateX(200px);
     }
-    
-    @keyframes slideright
+     
+  100%
     {
-        0%
-            {
-                -webkit-transform: translateX(200px);
-                transform: translateX(200px);
-            }
-            
-        100%
-            {
-                -webkit-transform: translateX(0px);
-                transform: translateX(0px);
-            }
-    
-    
-    }  
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+}
+@keyframes slideright
+{
+   
+   0%
+    {
+        -webkit-transform: translateX(200px);
+        transform: translateX(200px);
+    }
+     
+  100%
+    {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+  
+ 
+}  
 @-webkit-keyframes slideleft
 {
     0%
