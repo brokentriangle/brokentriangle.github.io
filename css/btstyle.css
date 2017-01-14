@@ -1,3 +1,8 @@
+a {
+  color: inherit; /* take color from style */
+  text-decoration: inherit; /* remove underline */
+}
+
 .auto-style1 {
     text-align: center;
     color: #999999;
@@ -119,8 +124,16 @@
     letter-spacing: 2px;
     margin: 20px 0; 
     text-align: center;
+}
+.link-text {
+
+    color: #464646;
+    font-size: 18px;
 } 
 
+.additions-text {
+    font-size: 14px;
+}
        
 .image-style1 {
     width:25%;
@@ -136,6 +149,10 @@
 
 .button-style2 {
     height:45px;
+}
+
+.bgblack {
+    background-color:black
 }
 
 .fadeproject {
