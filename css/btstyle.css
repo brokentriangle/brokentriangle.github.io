@@ -112,6 +112,16 @@
     margin: 40px 0; 
     text-align: center;
 } 
+
+.email-text {
+    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin: 20px 0; 
+    text-align: center;
+} 
+
        
 .image-style1 {
     width:25%;
@@ -131,7 +141,10 @@
 
 .fadeproject {
     /*Opacity should be 0 for this to work...set to 1 because it is not working with iphones*/
-    opacity:1; max-width: 600px;margin: 0 auto;padding: 0 0px;
+    opacity:1; 
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 0px;
 }
 .hidden {
     display:none;
