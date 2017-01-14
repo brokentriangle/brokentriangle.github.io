@@ -28,12 +28,16 @@ Date of Origin: Jan 2017
         <div class="top" >
             <div class="content">
                 <p class="auto-style1">
-                    <img src="images/brokentriangle.gif" class="logo" alt="broken Triangle"/>
+                    <picture>
+                          <source media="(min-width: 650px)" srcset="images/brokentriangle.gif">
+                          <source media="(min-width: 465px)" srcset="images/brokentrianglemed.gif">
+                          <img class="image-style2" src="images/brokentrianglemin.png" alt="Broken Triangle Image">
+                    </picture>
                 </p>
-                <p class="auto-style1" id="fadethis" style="display:none">
-                    <a href="aboutus.html"><img src="images/aboutus.jpg"class="buttons" alt="About Us"/></a>
-                    <a href="projects.html"><img src="images/projects.jpg" class="buttons" alt="Projects"/></a>
-                    <a href="contactus.html"><img src="images/contactus.jpg" class="buttons" alt="Contact Us"/></a>
+                <p class="auto-style1 hidden" id="fadethis">
+                    <a href="aboutus.html"><img src="images/aboutus.jpg" class="button-style1" alt="About Us"/></a>
+                    <a href="projects.html"><img src="images/projects.jpg" class="button-style1" alt="Projects"/></a>
+                    <a href="contactus.html"><img src="images/contactus.jpg" class="button-style1" alt="Contact Us"/></a>
                 </p> 
             </div> <!-- content -->
         </div> <!--top-->
