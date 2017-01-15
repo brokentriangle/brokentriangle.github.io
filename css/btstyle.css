@@ -129,6 +129,7 @@ a {
 
     color: #464646;
     font-size: 18px;
+    word-wrap: break-word;
 } 
 
 .additions-text {
