@@ -144,7 +144,11 @@ a {
 }   
 
 .button-style1 {
-   height:50px;
+    max-height:50px;
+    max-width:30%;
+    width:auto;
+    height:auto;
+
 }
 
 .button-style2 {
