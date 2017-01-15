@@ -84,6 +84,10 @@ a {
     margin: 50px 0;
     text-align: left;
 }
+.padding {
+   padding-left: 15px;
+  
+}
 
 .project1-color {
     padding: 10px 0;
@@ -149,7 +153,6 @@ a {
     max-width:30%;
     width:auto;
     height:auto;
-
 }
 
 .button-style2 {
@@ -262,7 +265,11 @@ a {
   
  
 }  
-
+@media screen and (max-width: 720px) {
+    .padding {
+        font-size: 80%;
+    }
+}
 .fromright {
     text-align: center;
     color: #999999;
