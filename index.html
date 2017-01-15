@@ -6,14 +6,16 @@ Date of Origin: Jan 2017
 
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Broken Triangle</title>
-    <meta charset="UTF-8">
     <meta name="author" content="Allen Smith">
-    <meta name="description" content="Broken Triangle: A small studio creating apps and software because we enjoy it. Projects: Squirrely, Virtual Deck Flashcards"/>
+    <meta name="description" content="Broken Triangle: A small software studio creating apps and games.">
     <meta name="keywords" content="Broken Triangle, squirrely, flashcards, Virtualdeck flahscards"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="images/favicon.png">
     <link rel="stylesheet" type="text/css" href="css/btstyle.css"/>
-    <link rel="preload" href="images/brokentriangle.gif">
+    <link rel="preload" href="images/brokentrianglemin.gif">
     <link rel="preload" href="images/aboutus.jpg">
     <link rel="preload" href="images/projects.jpg">
     <link rel="preload" href="images/contactus.jpg">
@@ -27,18 +29,24 @@ Date of Origin: Jan 2017
         <div class="top" >
              <div class="content">
               <p class="auto-style1">
-                <img class="image-style2" src="images/brokentriangle.gif" alt="broken Triangle"/>
-              </p>
-              <p class="auto-style1 hidden" id="fadethis">
-                <a href="aboutus.html"><img class="button-style1" src="images/aboutus.jpg" alt="About Us"/></a>
-                <a href="projects.html"><img class="button-style1" src="images/projects.jpg" alt="Projects"/></a>
-                <a href="contactus.html"><img class="button-style1" src="images/contactus.jpg" alt="Contact Us"/></a>
-                <br>
-                <p class="project1-text hidden" id="fadethat">
+                    <picture>
+                          <source media="(min-width: 1024px)" srcset="images/brokentriangle.gif">
+                          <source media="(min-width: 420px)" srcset="images/brokentrianglemed.gif">
+                          <img class="image-style2" src="images/brokentrianglemin.gif" alt="Broken Triangle Image">
+                    </picture>
+                </p>
+                <p class="auto-style1 hidden" id="fadethis">
+                    <a href="aboutus.html"><img src="images/aboutus.jpg" class="button-style1" alt="About Us"/></a>
+                    <a href="projects.html"><img src="images/projects.jpg" class="button-style1" alt="Projects"/></a>
+                    <a href="contactus.html"><img src="images/contactus.jpg" class="button-style1" alt="Contact Us"/></a>
+                    <p class="project1-text hidden" id="fadethat">
                 
                     2017
                       
-                </p>
+                    </p>
+                </p> 
+                
+                
               </p> 
             </div> <!-- content -->
            
