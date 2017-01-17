@@ -3,27 +3,53 @@ a {
   text-decoration: inherit; /* remove underline */
 }
 
-.auto-style1 {
+h1 {
+    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 100;
+    margin: 40px 0; 
     text-align: center;
-    color: #999999;
-    font-size: large;
-    background-position: 100% 0%;
 }
 
-.auto-style2 {
-    text-align: center;
-    color: #999999;
-    font-size: large;
-    background-position: 100% 0%;
-}
-.body 
-    {
-        font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
-        -webkit-font-smoothing: antialiased;
-        background-color: white;
+h1.project1-title {
+    letter-spacing: 2px;
+}  
 
-    }
+h1.title {
+    letter-spacing: 10px;
+}
+
+h1.shadow {
+    color: white;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+
+h1.email-text {
+    font-size: 21px;
+    letter-spacing: 2px;
+    margin: 20px 0; 
+}
+
+h2 {
+    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h2.text1 {
+    font-size: 21px;
+    margin: 50px 0;
+}
+
+p.padding {
+   padding-left: 15px;
+}
+
+p.additions-text {
+    font-size: 14px;
+}
+
 .container {
     position: absolute;
     top: 0;
@@ -34,6 +60,7 @@ a {
     overflow-x: hidden; 
 }
    
+/* This is the logo and page navigation */
 .top {
     padding: 50px 0;
     background-color: black;
@@ -57,37 +84,20 @@ a {
     margin: 0 auto;
     padding: 0 0px;
 }
-    
-.title {
-    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-    font-size: 32px;
-    font-weight: 100;
-    letter-spacing: 10px;
-    margin: 50px 0;
+
+.auto-style1 {
     text-align: center;
-    
+    color: #999999;
+    font-size: large;
+    background-position: 100% 0%;
 }
 
-.text1 {
-    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-    font-size: 21px;
-    font-weight: 100;
-    letter-spacing: 2px;
-    margin: 50px 0;
-    text-align: center;
-}
-
-.text2 {
-    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 100;
-    letter-spacing: 1px;
-    margin: 50px 0;
-    text-align: left;
-}
-.padding {
-   padding-left: 15px;
-  
+/* Each project on projects*/
+.fadeproject { 
+    opacity:1; 
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 0px;
 }
 
 .project1-color {
@@ -103,52 +113,23 @@ a {
     background-color: #000000;
     color: #fff;
 }  
-        
-.project1-title {
-    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-    font-size: 31px;
-    font-weight: 100;
-    letter-spacing: 2px;
-    margin: 40px 0; 
-    text-align: center;
-}  
-        
-.project1-text {
-    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-    font-size: 21px;
-    font-weight: 100;
-    letter-spacing: 2px;
-    margin: 40px 0; 
-    text-align: center;
-} 
 
-.email-text {
-    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-    font-size: 21px;
-    font-weight: 100;
-    letter-spacing: 2px;
-    margin: 20px 0; 
-    text-align: center;
-}
 .link-text {
-
     color: #464646;
     font-size: 18px;
     word-wrap: break-word;
 } 
 
-.additions-text {
-    font-size: 14px;
-}
-       
 .image-style1 {
     width:25%;
 } 
 
 .image-style2 {
+    border-radius: 8px; /* Rounded corner on images*/
     width:90%;
 }   
 
+/* Page navigation buttons*/
 .button-style1 {
     max-height:50px;
     max-width:30%;
@@ -156,121 +137,24 @@ a {
     height:auto;
 }
 
+/* Store link buttons*/
 .button-style2 {
     height:45px;
+}
+
+.project1-text {
+    text-align: center;
 }
 
 .bgblack {
     background-color:black
 }
 
-.fadeproject {
-    /*Opacity should be 0 for this to work...set to 1 because it is not working with iphones*/
-    opacity:1; 
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 0 0px;
-}
 .hidden {
     display:none;
 }  
 
-@-webkit-keyframes slideright {
-    0%
-    {
-        -webkit-transform: translateX(200px);
-        transform: translateX(200px);
-    }
-     
-    100%
-    {
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
-}
-
-@keyframes slideright {
-   
-   0%
-    {
-        -webkit-transform: translateX(200px);
-        transform: translateX(200px);
-    }
-     
-  100%
-    {
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
-  
- 
-}  
-
-@-webkit-keyframes slideleft {
-    0%
-    {
-        -webkit-transform: translateX(-200px);
-        transform: translateX(-200px);
-    }
-     
-  100%
-    {
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
-}
-
-
-@keyframes slideleft {
-   
-   0%
-    {
-        -webkit-transform: translateX(-200px);
-        transform: translateX(-200px);
-    }
-     
-  100%
-    {
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
-}  
-
-@-webkit-keyframes slidefrombottom {
-    0%
-    {
-        -webkit-transform: translateY(200px);
-        transform: translateY(200px);
-    }
-     
-  100%
-    {
-        -webkit-transform: translateY(0px);
-        transform: translateY(0px);
-    }
-}
-
-@keyframes slidefrombottom {
-   
-   0%
-    {
-        -webkit-transform: translateY(200px);
-        transform: translateY(200px);
-    }
-     
-  100%
-    {
-        -webkit-transform: translateY(0px);
-        transform: translateY(0px);
-    }
-  
- 
-}  
-@media screen and (max-width: 720px) {
-    .padding {
-        font-size: 80%;
-    }
-}
+/* Animations*/
 .fromright {
     text-align: center;
     color: #999999;
@@ -301,3 +185,41 @@ a {
     animation-iteration-count: 1;
 }  
 
+/* Animations General*/
+@keyframes slideleft {
+    0%  { -webkit-transform: translateX(-200px); transform: translateX(-200px); }
+    100%{ -webkit-transform: translateX(0px); transform: translateX(0px); }
+}  
+
+@keyframes slideright {   
+    0%  { -webkit-transform: translateX(200px); transform: translateX(200px); }
+    100%{ -webkit-transform: translateX(0px); transform: translateX(0px); }
+}  
+
+@keyframes slidefrombottom {
+    0%  { -webkit-transform: translateY(200px); transform: translateY(200px); }
+    100%{ -webkit-transform: translateY(0px); transform: translateY(0px); }
+}
+
+/* Animations Safari */
+@-webkit-keyframes slideleft {
+    0%  { -webkit-transform: translateX(-200px); transform: translateX(-200px); }
+    100%{ -webkit-transform: translateX(0px); transform: translateX(0px); }
+}
+
+@-webkit-keyframes slideright {
+    0%  { -webkit-transform: translateX(200px); transform: translateX(200px); }
+    100%{ -webkit-transform: translateX(0px); transform: translateX(0px); }
+}
+
+@-webkit-keyframes slidefrombottom {
+    0%  { -webkit-transform: translateY(200px); transform: translateY(200px); }
+    100%{ -webkit-transform: translateY(0px); transform: translateY(0px); }
+}
+
+/* Small screens */
+@media screen and (max-width: 720px) {
+    p {
+        font-size: 80%;
+    }
+}
