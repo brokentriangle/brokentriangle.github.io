@@ -124,10 +124,17 @@ p.additions-text {
     width:25%;
 } 
 
+/* Images on project page*/
 .image-style2 {
     border-radius: 8px; /* Rounded corner on images*/
     width:90%;
 }   
+
+/* Images on about us page*/
+.image-style3 {
+    border-radius: 8px; /* Rounded corner on images*/
+    width:70%;
+}
 
 /* Page navigation buttons*/
 .button-style1 {
