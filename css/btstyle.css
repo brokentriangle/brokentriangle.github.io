@@ -157,8 +157,23 @@ p.additions-text {
 }
 
 .bgblack {
-    background-color:black
+    background-color:black;
+   
 }
+.bganimate1{
+     padding: 10px 0;
+    padding-bottom: 10px;
+    color: #999999;
+    animation: changeBGa 30s ease-out 1s alternate infinite;
+}
+.bganimate2{
+     padding: 10px 0;
+    padding-bottom: 10px;
+    color: #fff;
+    animation: changeBGb 30s ease-out 1s alternate infinite;
+}
+
+
 
 .hidden {
     display:none;
@@ -196,6 +211,29 @@ p.additions-text {
 }  
 
 /* Animations General*/
+@keyframes changeBGa{
+  
+  0%, 5%, 100%{
+    background-color: #ffffff;
+  }
+  
+  40%, 45%, 60%{
+    background-color: #000000;
+  }  
+}
+
+@keyframes changeBGb{
+  
+  0%, 5%, 100%{
+    background-color:  #000000;
+  }
+  
+  40%, 45%, 60%{
+    background-color:  #121212;
+  }  
+}
+
+
 @keyframes slideleft {
     0%  { -webkit-transform: translateX(-200px); transform: translateX(-200px); }
     100%{ -webkit-transform: translateX(0px); transform: translateX(0px); }
