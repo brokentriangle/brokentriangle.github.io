@@ -56,7 +56,7 @@ p.additions-text {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color:white;
+    background-color:#4d4d4d;
     overflow-x: hidden; 
 }
    
@@ -214,11 +214,13 @@ p.additions-text {
 @keyframes changeBGa{
   
   0%, 5%, 100%{
-    background-color: #ffffff;
+    background-color: #4d4d4d;
+
   }
-  
+
   40%, 45%, 60%{
     background-color: #000000;
+    
   }  
 }
 
@@ -229,7 +231,7 @@ p.additions-text {
   }
   
   40%, 45%, 60%{
-    background-color:  #121212;
+    background-color:  #4d4d4d;
   }  
 }
 
