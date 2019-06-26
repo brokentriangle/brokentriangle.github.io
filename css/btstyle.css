@@ -91,6 +91,16 @@ p.additions-text {
     font-size: large;
     background-position: 100% 0%;
 }
+.date-text {
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+    max-height:50px;
+    max-width:30%;
+    width:auto;
+    height:auto;
+    letter-spacing: 12px;
+    font-size: 18px;
+    font-weight: 100;
+}
 
 /* Each project on projects*/
 .fadeproject { 
@@ -137,6 +147,16 @@ p.additions-text {
 }
 
 /* Page navigation buttons*/
+.button-header {
+    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+    max-height:50px;
+    max-width:30%;
+    width:auto;
+    height:auto;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 100;
+}
 .button-style1 {
     max-height:50px;
     max-width:30%;
@@ -158,7 +178,6 @@ p.additions-text {
 
 .bgblack {
     background-color:black;
-   
 }
 .bganimate1{
      padding: 10px 0;
